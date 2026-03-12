@@ -1,7 +1,7 @@
 ---
 name: line-liff
 version: 0.1.0
-description: "Comprehensive reference for LINE Front-end Framework (LIFF) SDK — building web apps inside LINE with authentication, messaging, QR scanning, permanent links, pluggable SDK, and LIFF plugin development. This skill should be used when the user asks to \"build a LIFF app\", \"initialize liff.init()\", \"send messages from LIFF\", \"use Share Target Picker\", \"scan a QR code in LIFF\", \"create a permanent link\", \"develop a LIFF plugin\", or mentions LIFF SDK, LINE Front-end Framework, CDN/npm integration, pluggable SDK tree-shaking, LIFF-to-LIFF transitions, LIFF browser vs external browser, Endpoint URL configuration, or server-side ID token verification from LIFF. Always use this skill whenever the user mentions LIFF, web apps inside LINE, or LINE Front-end Framework, even if they don't explicitly say 'LIFF SDK'."
+description: Comprehensive reference for LINE Front-end Framework (LIFF) SDK — building web apps inside LINE with authentication, messaging, QR scanning, permanent links, pluggable SDK, and LIFF plugin development. This skill should be used when the user asks to "build a LIFF app", "initialize liff.init()", "send messages from LIFF", "use Share Target Picker", "scan a QR code in LIFF", "create a permanent link", "develop a LIFF plugin", or mentions LIFF SDK, LINE Front-end Framework, CDN/npm integration, pluggable SDK tree-shaking, LIFF-to-LIFF transitions, LIFF browser vs external browser, Endpoint URL configuration, or server-side ID token verification from LIFF. Always use this skill whenever the user mentions LIFF, web apps inside LINE, or LINE Front-end Framework, even if they don't explicitly say "LIFF SDK".
 ---
 
 # LINE LIFF (Front-end Framework)
@@ -36,18 +36,9 @@ CHANNEL_ACCESS_TOKEN=Channel access token (for LIFF Server API — manage LIFF a
 
 ## SDK
 
-**CDN**:
-```html
-<!-- Check latest version: https://developers.line.biz/en/docs/liff/developing-liff-apps/ -->
-<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.22.3/sdk.js"></script>
-```
+Install via CDN or npm. For tree-shaking (reduce ~34% bundle size), use pluggable SDK.
 
-**npm**:
-```bash
-npm install @line/liff
-```
-
-For tree-shaking (reduce ~34% bundle size), use pluggable SDK → **[references/api.md § Pluggable SDK](references/api.md)**
+SDK installation, CDN/npm setup, pluggable SDK → **[references/api.md § Pluggable SDK](references/api.md)**
 
 ## Initialization
 

@@ -1,7 +1,7 @@
 ---
 name: line-mini-app
 version: 0.1.0
-description: "Comprehensive reference for LINE MINI App — Service Messages, Common Profile Quick Fill, In-App Purchase, Console setup (3 internal channels), submission review, and performance guidelines for web apps running inside LINE as an enhanced LIFF platform. This skill should be used when the user asks to \"build a LINE MINI App\", \"send a service message\", \"set up Common Profile Quick Fill\", \"implement in-app purchase\", \"configure MINI App Console\", \"submit MINI App for review\", or mentions LINE MINI App, Service Messages, notification token, Common Profile, IAP purchase flow, 3 internal channels, consent simplification, Custom Path, custom share messages, or verified vs unverified MINI App. Always use this skill whenever the user mentions LINE MINI App, mini apps in LINE, or enhanced LIFF features like service messages or in-app purchase, even if they don't explicitly say 'MINI App'."
+description: Comprehensive reference for LINE MINI App — Service Messages, Common Profile Quick Fill, In-App Purchase, Console setup (3 internal channels), submission review, and performance guidelines for web apps running inside LINE as an enhanced LIFF platform. This skill should be used when the user asks to "build a LINE MINI App", "send a service message", "set up Common Profile Quick Fill", "implement in-app purchase", "configure MINI App Console", "submit MINI App for review", or mentions LINE MINI App, Service Messages, notification token, Common Profile, IAP purchase flow, 3 internal channels, consent simplification, Custom Path, custom share messages, or verified vs unverified MINI App. Always use this skill whenever the user mentions LINE MINI App, mini apps in LINE, or enhanced LIFF features like service messages or in-app purchase, even if they don't explicitly say "MINI App".
 ---
 
 # LINE MINI App
@@ -62,19 +62,7 @@ Full API specs, scopes, dummy data → **[references/common-profile.md](referenc
 
 Japan only. Consumable digital content only. Requires LIFF SDK ≥ 2.26.0, LINE ≥ 15.6.0, LIFF browser.
 
-```
-Client: liff.isApiAvailable("iap")    → Check environment
-Client: getPlatformProducts()          → Query products/prices
-Client: requestConsentAgreement()      → User agrees to IAP Terms
-Server: POST /iap/v1/product/reserve   → Reserve purchase, get orderId
-Client: createPayment({ orderId })     → Launch app store payment
-Server: Webhook (purchaseComplete)     → Grant item
-Server: Webhook (refundComplete)       → Revoke item
-```
-
-- **Reserve ≠ Purchase** — grant items on `purchaseComplete` webhook only
-
-Full purchase flow, dev guidelines, error codes → **[references/in-app-purchase.md](references/in-app-purchase.md)**
+Purchase flow (client + server), dev guidelines, error codes → **[references/in-app-purchase.md](references/in-app-purchase.md)**
 
 ## Key Constraints
 
