@@ -1,0 +1,9 @@
+{
+  "knowledge_domain": "LINE API",
+  "assess_scope": [
+    "- The skill covers LINE Notification Messages (PNP) only, NOT Messaging API push/reply, LIFF, LINE Login, LINE MINI App Service Messages, or non-LINE topics."
+  ],
+  "improve_scope": [
+    "- The skill covers LINE Notification Messages (PNP) ONLY. NOT Messaging API push/reply, LIFF, LINE Login, LINE MINI App Service Messages, or non-LINE topics."
+  ]
+}

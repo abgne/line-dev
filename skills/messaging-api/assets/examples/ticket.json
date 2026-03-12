@@ -1,0 +1,55 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://developers-resource.landpress.line.me/fx/img/01_2_movie.png",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {"type": "uri", "uri": "https://example.com"}
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {"type": "text", "text": "MOVIE TICKET", "color": "#1DB446", "size": "sm", "weight": "bold"},
+      {"type": "text", "text": "The Awesome Movie", "weight": "bold", "size": "xl", "margin": "md"},
+      {"type": "separator", "margin": "lg"},
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {"type": "text", "text": "Date", "color": "#aaaaaa", "size": "sm", "flex": 1},
+              {"type": "text", "text": "March 15, 2025 15:30", "color": "#666666", "size": "sm", "flex": 4}
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {"type": "text", "text": "Place", "color": "#aaaaaa", "size": "sm", "flex": 1},
+              {"type": "text", "text": "Cinema Tower, Screen 7", "color": "#666666", "size": "sm", "flex": 4, "wrap": true}
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {"type": "text", "text": "Seat", "color": "#aaaaaa", "size": "sm", "flex": 1},
+              {"type": "text", "text": "C-11, C-12", "color": "#666666", "size": "sm", "flex": 4}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

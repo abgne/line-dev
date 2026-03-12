@@ -1,0 +1,290 @@
+[
+  {
+    "query": "LIFF app 的 liff.init() 一直失敗，error code 是 INIT_FAILED，Endpoint URL 跟實際部署的 URL 不一樣會有影響嗎？",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to use liff.sendMessages to send a Flex Message to the current chat from my LIFF page. Does it work in external browsers? What are the limitations?",
+    "should_trigger": true
+  },
+  {
+    "query": "liff.shareTargetPicker で複数の友達を選択して一括シェアしたいです。isMultiple の使い方と、事前に必要な同意設定を教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากใช้ pluggable SDK ลดขนาด bundle @line/liff/core มี method อะไรบ้าง? liff.use() ต้องเรียกก่อน liff.init() เสมอไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login 的 OAuth 2.0 流程中，authorize endpoint 回來的 code 要怎麼換 access token？redirect_uri 要完全一致嗎？",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF 裡面的 liff.getIDToken() 拿到的 JWT 要送到 server 驗證，是用 HS256 還是 ES256？Channel Secret 當 key？",
+    "should_trigger": true
+  },
+  {
+    "query": "How does a LIFF app detect whether it's running inside the LINE app or in an external browser? What's the difference between isInClient() and getContext()?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE MINI App 的 Service Message 要怎麼發？notification token 跟 LIFF access token 的關係是什麼？",
+    "should_trigger": false
+  },
+  {
+    "query": "永久リンク permanent link はどうやって生成しますか？liff.permanentLink.createUrlBy() と createUrl() の違いは何ですか？URL は Endpoint URL 配下でないとダメですか？",
+    "should_trigger": true
+  },
+  {
+    "query": "LIFF の画面サイズで Full / Tall / Compact がありますが、Module Mode を有効にすると何が変わりますか？ヘッダーのアクションボタンが消えるんですか？",
+    "should_trigger": true
+  },
+  {
+    "query": "How do LIFF-to-LIFF transitions work? If I navigate from a Tall LIFF to another one, does the browser close first and reopen? What is liff.referrer?",
+    "should_trigger": true
+  },
+  {
+    "query": "LIFF app minimize ได้ไหม? minimize แล้วจะกลายเป็น floating icon ใช่ไหม? ต้องมีเงื่อนไขอะไรบ้าง? เปิด chat_message.write scope จะมีผลไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "My Next.js site needs a 'Login with LINE' feature. How do I implement the PKCE flow? How do I generate code_verifier and code_challenge?",
+    "should_trigger": false
+  },
+  {
+    "query": "想寫一個 LIFF plugin 來 log 所有 API call，install() 的 context.hooks 可以 hook 哪些 lifecycle event？",
+    "should_trigger": true
+  },
+  {
+    "query": "liff.scanCodeV2() の使い方を教えてください。Console でどこをオンにすればいいですか？iOS 14 以下でも動きますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE MINI App 的表單自動填入功能需要哪些 scope？name、email、address 都有嗎？design regulation 是什麼？",
+    "should_trigger": false
+  },
+  {
+    "query": "When opening a LIFF app in an external browser, liff.login() redirects to the LINE Login screen. If I set withLoginOnExternalBrowser to true, do I still need to call liff.login() manually?",
+    "should_trigger": true
+  },
+  {
+    "query": "liff.permission.query() で email scope をユーザーが許可しているか確認したいです。state は granted、prompt、unavailable のどれになりますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE MINI App の課金で reserve endpoint を呼んだ後、purchaseComplete webhook を待つ必要がありますか？grant はいつ行いますか？",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF URL เริ่มต้นด้วย https://liff.line.me/{liffId} หรือ line://app/{liffId}? format เก่ายังใช้ได้อยู่ไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "liff.getContext() 回傳的 type 有哪些值？utou 是什麼意思？group 跟 room 差在哪？",
+    "should_trigger": true
+  },
+  {
+    "query": "LIFF app 用 Next.js 寫的，liff.init() 之後 URL 被加了 liff.state 參數，跟 Next.js router 衝突怎麼辦？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login ボタンをログインページに設置したいです。公式のカラー仕様は何ですか？hover と disabled 状態の色はどう処理しますか？",
+    "should_trigger": false
+  },
+  {
+    "query": "During liff.init() the URL gets a bunch of liff.state parameters. What should I watch out for with SPA routing? Can I modify the URL before init completes?",
+    "should_trigger": true
+  },
+  {
+    "query": "LIFF Mock plugin はどうやって使いますか？ローカル開発で LINE server に接続せずに liff.getProfile のレスポンスをモックできますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "MINI App ต้อง submit review ก่อน publish ใช่ไหม? review process นานแค่ไหน? reject แล้วต้องทำยังไง?",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF Inspector คืออะไร? debug LIFF app บนมือถือด้วย Chrome DevTools บน PC ได้ไหม? npm package ชื่ออะไร?",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากทำ LIFF app ให้ user สแกน QR Code แล้วแสดงผลใน LINE ต้องเปิด setting อะไรใน Console บ้าง?",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I use the LIFF Mock plugin for local development? Can I mock liff.getProfile() responses without connecting to LINE server?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE MINI App にする利点は？Service Message、Common Profile、In-App Purchase を使うなら MINI App 一択ですか？",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I create a LIFF app from scratch? Where do I register it in LINE Developers Console? Is there a limit on how many LIFF apps I can add?",
+    "should_trigger": true
+  },
+  {
+    "query": "LIFF app の access token の有効期限はどのくらいですか？LIFF を閉じた後すぐに無効になりますか？LINE v15.12.0 で何が変わりましたか？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE MINI App 的 channel consent simplification 只 skip openid scope 嗎？profile 和 email 要怎麼處理？",
+    "should_trigger": false
+  },
+  {
+    "query": "ช่วย review โค้ด LIFF initialization ให้หน่อย ดูลำดับ liff.init() error handling และการจัดการ URL ว่ามีปัญหาอะไรไหม",
+    "should_trigger": true
+  },
+  {
+    "query": "LIFF アプリで Module Mode を有効にするとヘッダーが消えますが、ユーザーはどうやって LIFF を閉じますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "liff-cli serve 跑起來後本地 proxy 是 https://localhost:9000 但手機打開 LIFF URL 一直轉圈，mkcert 的憑證要怎麼設定？--inspect 可以同時用嗎？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE MINI App の Custom Path はどう設定しますか？文字数制限は 4-29 文字ですか？",
+    "should_trigger": false
+  },
+  {
+    "query": "I want to manage LIFF apps programmatically via REST API without going into LINE Developers Console — create, update, delete using curl. How do I pass the channel access token? What's the endpoint?",
+    "should_trigger": true
+  },
+  {
+    "query": "liff.permission.query('profile') ได้ state เป็น prompt ต้อง requestAll() ก่อนถึงจะเรียก getProfile() ได้ใช่ไหม",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE MINI App ใช้ LINE Pay ได้ไหม? ญี่ปุ่นยกเลิกแล้วจริงไหม? ไทยกับไต้หวันล่ะ?",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF SDK を v2.22.3 から最新版にアップグレードすると breaking change はありますか？CDN edge path と fixed path の違いは？SDK の lifecycle と EOL はいつですか？",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากเขียน LINE Bot ด้วย Python เวลา user ส่ง message event มา ต้อง reply ยังไง? replyToken ใช้ได้นานแค่ไหน?",
+    "should_trigger": false
+  },
+  {
+    "query": "ใช้ liff-cli init สร้างโปรเจค Next.js LIFF scaffold เสร็จแล้วต้องตั้งค่า LIFF ID ยังไง? liff-cli app create ต่างจากสร้างใน Console ยังไง?",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I set up the 3 internal channels for my LINE MINI App? Do Developing, Review, and Published each need separate Endpoint URLs?",
+    "should_trigger": false
+  },
+  {
+    "query": "My LIFF app works fine on Android but on iOS the liff.init() just hangs. The endpoint URL is correct and HTTPS. Could it be a Universal Links issue? How do I debug this?",
+    "should_trigger": true
+  },
+  {
+    "query": "npx @line/create-liff-app 建立的 React template，LIFF_ID 要設在 .env 還是直接寫在 code 裡？",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me build a Flex Message receipt template with product name, quantity, unit price, subtotal, and a total amount with a button at the bottom",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to send a message from my LIFF app to the chat where it was opened. liff.sendMessages keeps returning 403 — is it because the user opened it from the recently used services list?",
+    "should_trigger": true
+  },
+  {
+    "query": "LIFF v3 への移行に備えて、deprecated された API（liff.scanCode, liff.getLanguage, liff.permanentLink.createUrl）を使っていないか確認したい",
+    "should_trigger": true
+  },
+  {
+    "query": "Rich Menu でタブ切り替えはどうやりますか？richmenuswitch action と alias の使い方を教えてください",
+    "should_trigger": false
+  },
+  {
+    "query": "liff.getProfile() と liff.getDecodedIDToken() の違いは何ですか？それぞれどんな場合に使うべきですか？getProfile には profile scope が必要ですか？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE MINI App 的 Lighthouse performance score 要多少分才能通過審查？量測時要排除 LINE Login 處理嗎？",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF アプリで liff.closeWindow() を呼んでもウィンドウが閉じません。外部ブラウザでは動作しないと聞きましたが、LIFF ブラウザ内でも同じですか？",
+    "should_trigger": true
+  },
+  {
+    "query": "ทำ LIFF app แล้วอยากให้ user แชร์ลิงก์ไปให้เพื่อน ใช้ shareTargetPicker ได้เลยไหม หรือต้อง check isApiAvailable ก่อน?",
+    "should_trigger": true
+  },
+  {
+    "query": "My LIFF app needs to work in both LINE browser and external browser. How do I handle the authentication flow differently for each?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Pay API の決済フローを教えてください。sandbox 環境でテストする方法も知りたいです",
+    "should_trigger": false
+  },
+  {
+    "query": "เปิด LIFF app ใน external browser แล้ว liff.login() ไม่ redirect กลับมา withLoginOnExternalBrowser ต้องตั้งค่ายังไง?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE MINI App の Service Message はどうやって送りますか？notification token とは何ですか？通常の push message と何が違いますか？",
+    "should_trigger": false
+  },
+  {
+    "query": "liff.openWindow() で外部サイトに遷移するとき、LIFF ブラウザ内では警告ポップアップが出ますか？external: true の動作を教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to migrate my existing web app to become a LINE MINI App. What are the 6 steps?",
+    "should_trigger": false
+  },
+  {
+    "query": "What's the difference between liff.getProfile() and liff.getDecodedIDToken()? When should I use each one? Does getProfile require the profile scope?",
+    "should_trigger": true
+  },
+  {
+    "query": "channel access token is about to expire. I want to auto-rotate it using JWT assertion. What's the difference between stateless token and v2.1 token?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I parse the data and datetimepicker params from a postback event?",
+    "should_trigger": false
+  },
+  {
+    "query": "想在我們的 app 裡放按鈕，點了直接打開 LINE 跟官方帳號聊天，URL scheme 要怎麼寫？",
+    "should_trigger": false
+  },
+  {
+    "query": "narrowcast で過去30日間にインタラクションしたオーディエンスだけに配信したいです。audience の作り方と API request body を教えてください",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากออกแบบ LINE sticker ตัวละครเป็นชิบะอินุ อยากรู้ขนาด spec และข้อควรระวังในการ review ของ Creators Market",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I set up a LINE webhook to receive message events? I want to build a chatbot that echoes back whatever the user types",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to verify the webhook signature in my Express.js LINE bot. The X-Line-Signature header — how do I compute the HMAC-SHA256?",
+    "should_trigger": false
+  },
+  {
+    "query": "Messaging API で push message を送りたいのですが、rate limit はどのくらいですか？multicast と broadcast の違いを教えてください",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Login の authorize URL で prompt=consent を指定すると毎回同意画面が出ますか？PKCE の code_challenge_method は S256 だけですか？",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากทำ LINE Bot ที่ตอบกลับอัตโนมัติเวลา user ส่งข้อความมา ใช้ reply API ยังไง replyToken หมดอายุเมื่อไหร่?",
+    "should_trigger": false
+  },
+  {
+    "query": "ต้องการทำระบบ login ด้วย LINE บนเว็บไซต์ ใช้ OAuth 2.0 authorize endpoint ยังไง callback URL ต้องตั้งค่าตรงไหน?",
+    "should_trigger": false
+  }
+]

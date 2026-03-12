@@ -1,0 +1,53 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://developers-resource.landpress.line.me/fx/img/01_3_flower.png",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {"type": "uri", "uri": "https://example.com"}
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {"type": "text", "text": "Flower Bouquet", "weight": "bold", "size": "xl"},
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {"type": "text", "text": "$29.99", "size": "xl", "color": "#EB4E3D", "weight": "bold", "flex": 0},
+          {"type": "text", "text": "$49.99", "size": "sm", "color": "#aaaaaa", "decoration": "line-through", "margin": "sm", "flex": 0}
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Beautiful hand-crafted bouquet with seasonal flowers. Perfect for any occasion.",
+        "size": "sm",
+        "color": "#666666",
+        "margin": "md",
+        "wrap": true
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#EB4E3D",
+        "action": {"type": "uri", "label": "Add to Cart", "uri": "https://example.com"}
+      },
+      {
+        "type": "button",
+        "style": "secondary",
+        "action": {"type": "uri", "label": "Add to Wishlist", "uri": "https://example.com"}
+      }
+    ]
+  }
+}

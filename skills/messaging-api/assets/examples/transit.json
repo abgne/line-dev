@@ -1,0 +1,69 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {"type": "text", "text": "FROM", "color": "#ffffff66", "size": "sm"},
+          {"type": "text", "text": "Akihabara", "color": "#ffffff", "size": "xl", "weight": "bold"}
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {"type": "text", "text": "TO", "color": "#ffffff66", "size": "sm"},
+          {"type": "text", "text": "Shinjuku", "color": "#ffffff", "size": "xl", "weight": "bold"}
+        ]
+      }
+    ],
+    "paddingAll": "20px",
+    "backgroundColor": "#0367D3",
+    "spacing": "md"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {"type": "text", "text": "Total", "size": "sm", "color": "#555555"},
+          {"type": "text", "text": "¥200", "size": "lg", "color": "#111111", "align": "end", "weight": "bold"}
+        ]
+      },
+      {"type": "separator", "margin": "lg"},
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {"type": "text", "text": "Train", "size": "sm", "color": "#555555", "flex": 2},
+              {"type": "text", "text": "JR Sobu Line", "size": "sm", "color": "#111111", "flex": 4},
+              {"type": "text", "text": "¥200", "size": "sm", "color": "#111111", "align": "end", "flex": 2}
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {"type": "text", "text": "Time", "size": "sm", "color": "#555555", "flex": 2},
+              {"type": "text", "text": "20 min", "size": "sm", "color": "#111111", "flex": 4}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

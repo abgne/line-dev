@@ -1,0 +1,282 @@
+[
+  {
+    "query": "I want to build a LINE Bot in Python. When a user sends an image, the bot should recognize the content and reply with text. How do I receive image events from the webhook?",
+    "should_trigger": true
+  },
+  {
+    "query": "幫我做一個 Flex Message 的收據樣板，要有商品名稱、數量、單價、小計，最下面有一個總金額跟一個 Pay Now 按鈕",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 公式アカウントに3つの Rich Menu を設定して切り替えたいです。一般ユーザー用、VIP用、管理者用で、richmenuswitch action と alias でタブ切り替えをしたいです",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากทำ narrowcast ส่งให้เฉพาะ audience ที่คลิกลิงก์ใน 30 วัน audience สร้างยังไง? impression กับ click audience ต่างกันยังไง?",
+    "should_trigger": true
+  },
+  {
+    "query": "reply message 跟 push message 費用差多少？我們月活 5 萬用戶，想估算一下每月的訊息費用，broadcast 會比 multicast 便宜嗎？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 公式アカウントでクーポンを作成して、特定のオーディエンスにだけ配信したいです。APIでクーポンの作成から配信までの流れを教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "My bot was added to a group, but I don't know how to get group member profiles. How are message events in groups different from one-on-one chats?",
+    "should_trigger": true
+  },
+  {
+    "query": "We have an existing member system with user accounts. I want to implement the LINE account link feature so users can link their LINE profile to their account in our database. How does the linking token flow work and what endpoints do I need to call?",
+    "should_trigger": true
+  },
+  {
+    "query": "channel access token กำลังจะหมดอายุ อยากทำ auto rotate ด้วย JWT assertion ต้องตั้งค่า key ยังไง? stateless token กับ v2.1 token ต่างกันยังไง?",
+    "should_trigger": true
+  },
+  {
+    "query": "想在我們的 app 裡放一個按鈕，點了直接打開 LINE 跟我們的官方帳號聊天，URL scheme 要怎麼寫？iOS 跟 Android 有差嗎",
+    "should_trigger": true
+  },
+  {
+    "query": "ส่ง push message ไปแล้วอยากดูสถิติว่าส่งสำเร็จกี่ข้อความ มี API ดึง insights ของ message deliveries ไหม แล้ว demographic ของ followers ดูยังไง",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to add a broadcast feature to our LINE Bot, but I need read receipts. I may also need to push only to filtered friends based on certain criteria using narrowcast",
+    "should_trigger": true
+  },
+  {
+    "query": "imagemap message で異なるエリアをクリックできる画像メニューを作りたいです。各エリアに異なる action を設定する方法を教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Bot で loading animation（タイピングインジケーター）を表示させたいんですが、ユーザーがメッセージ送ってきてから返信するまで数秒かかるので、その間にチャット画面に入力中の表示を出す API ってありますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "เวลา user add friend อยาก auto ส่ง welcome message follow event ของ replyToken ใช้ได้นานแค่ไหน?",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I parse the data and datetimepicker params from a postback event?",
+    "should_trigger": true
+  },
+  {
+    "query": "我的 webhook server 有時候處理太慢回 500，LINE 平台會自動 retry 嗎？retry 幾次？間隔多久？如果一直 fail 會不會被停用 webhook？",
+    "should_trigger": true
+  },
+  {
+    "query": "Flex Message の Carousel で最大何個の bubble を入れられますか？JSON サイズの上限も教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "วิธีสร้าง Rich Menu แล้วตั้งเป็น default ให้ผู้ใช้ทุกคน ต้องใช้ API ไหนบ้าง",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I verify the webhook signature from LINE? My bot keeps getting 403 errors",
+    "should_trigger": true
+  },
+  {
+    "query": "template message 的 confirm type 可以放幾個 action？carousel template 最多幾個 column？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 公式アカウントの友だち数とメッセージ使用量を API で確認する方法を教えてください。demographic 統計はありますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I make a LINE Bot show a loading animation while the user waits? I want a friendlier UX",
+    "should_trigger": true
+  },
+  {
+    "query": "怎麼在 LINE Developers Console 新建一個 Messaging API Channel？設定 webhook URL 的步驟是什麼？",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me review this LINE Bot webhook handler. Check if it's missing x-line-signature verification or error handling",
+    "should_trigger": true
+  },
+  {
+    "query": "この Flex Message JSON がサイズ制限を超えていないか、フォーマットエラーがないかチェックしてください",
+    "should_trigger": true
+  },
+  {
+    "query": "bot ตอบ message แล้วบางที replyToken หมดอายุ ช่วยดูโค้ดนี้ให้หน่อยว่ามีปัญหาตรงไหน",
+    "should_trigger": true
+  },
+  {
+    "query": "review 一下這個 narrowcast 的 audience 跟 demographic filter 設定對不對",
+    "should_trigger": true
+  },
+  {
+    "query": "Is my Rich Menu API call sequence correct? Why isn't the default menu taking effect?",
+    "should_trigger": true
+  },
+  {
+    "query": "幫我看看這個 LINE Bot 的 push message 為什麼一直回 429，是不是 rate limit 的問題",
+    "should_trigger": true
+  },
+  {
+    "query": "I'm building a LINE bot with Node.js. How do I handle multiple message types in the webhook — text, image, sticker, and location events?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Bot でカルーセル型の商品カードを送りたいです。Flex Message と template message のどちらを使うべきですか？サイズ制限は？",
+    "should_trigger": true
+  },
+  {
+    "query": "อยาก push message ไปหา user เฉพาะคนที่เคยซื้อของ multicast ทำงานยังไง max กี่คนต่อ request?",
+    "should_trigger": true
+  },
+  {
+    "query": "ก่อนส่ง Flex Message จริง อยากเอา JSON ไป validate ก่อนว่า format ถูกไหม มี API endpoint สำหรับ validate Flex Message JSON ไหม? ไม่อยากส่งไปแล้วพังหน้า user",
+    "should_trigger": true
+  },
+  {
+    "query": "Messaging API の webhook で受信したイベントの中に replyToken がないものがあります。どのイベントタイプに replyToken が含まれますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "Rich Menu を API で作成する手順を教えてください。画像のアップロードからデフォルト設定まで、呼び出す API の順番が知りたいです",
+    "should_trigger": true
+  },
+  {
+    "query": "My LINE bot received an image from the user. I want to download the binary data and upload it to S3. What's the content API endpoint and how do I authenticate?",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to get all follower user IDs for our LINE official account. We have around 80k followers and I want to sync them to our CRM nightly. Is there an API to get follower IDs in bulk, and does it support pagination?",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากทำ LINE Bot ที่ตอบกลับอัตโนมัติด้วย Flex Message เวลา user ส่งข้อความมา ต้อง verify webhook signature ยังไง?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Bot でスタンプメッセージを送りたいんですが、packageId と stickerId の一覧ってどこで確認できますか？公式のスタンプリストみたいなのはありますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "ส่ง multicast ไปหลายคนแล้วได้ error 429 ต้องรอนานแค่ไหนถึงจะส่งใหม่ได้ rate limit ของ Messaging API เป็นยังไง?",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากเพิ่ม Quick Reply ใต้ข้อความ มีปุ่มเปิดกล้อง ปุ่มส่ง location กับปุ่ม datetimepicker ให้ user เลือกวันเวลา ต้อง set action ยังไงบ้างครับ",
+    "should_trigger": true
+  },
+  {
+    "query": "用戶在聊天室傳了圖片跟影片給我的 Bot，我想用 Content API 從 api-data.line.me 下載這些檔案存到 GCS，認證方式跟 endpoint 路徑怎麼寫？有過期時間嗎？",
+    "should_trigger": true
+  },
+  {
+    "query": "我想在 LIFF 裡面用 liff.getProfile() 拿用戶資料，然後用 liff.sendMessages() 發訊息到聊天室，LIFF SDK 要用 CDN 還是 npm 裝？",
+    "should_trigger": false
+  },
+  {
+    "query": "In the LINE Login OAuth 2.0 flow, how do I exchange the authorization code for an access token? How do I verify the ID token JWT signature?",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Mini App の Service Message はどうやって送りますか？notification token とは何ですか？通常の push message と何が違いますか？",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากออกแบบ LINE sticker ตัวละครเป็นชิบะอินุ อยากรู้ขนาด spec จำนวนที่ต้องทำ และข้อควรระวังในการ review ของ Creators Market",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我用 liff.shareTargetPicker 做一个分享功能，让用户可以从 LIFF 页面选择好友或群组来分享 Flex Message",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Login 整合進我的 Next.js 網站，用 PKCE flow，token refresh 跟 revoke 要怎麼處理？session 管理有什麼建議？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE MINI App の Common Profile Quick Fill を予約フォームで使いたいです。ユーザーの名前、電話番号、住所を自動入力するために data-liff-autocomplete はどう設定しますか？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE 表情貼跟動態貼圖的規格差在哪？動態貼圖的 APNG 檔案大小限制是多少？有沒有推薦的製作工具？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Pay API の決済フローを教えてください。sandbox 環境でテストする方法も知りたいです",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Notify 的 token 怎麼申請？我想用它來發通知到群組，不需要做 bot",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF v2 の liff.init() でエラーが出ます。LIFF_ID の設定と CDN の読み込み順を確認したいです",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to implement LINE Login with PKCE in my SPA. How do I generate the code_verifier and code_challenge? Where do I set the callback URL?",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF app で liff.scanCodeV2() を使って QR コードを読み取りたいです。Console でどの設定をオンにする必要がありますか？",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากทำระบบ login ด้วย LINE บนเว็บไซต์ React ใช้ OAuth 2.0 authorize endpoint ยังไง callback URL ต้องตั้งค่าตรงไหน?",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากทำ LIFF app ที่เปิดใน LINE แล้วอ่าน QR Code ได้ ต้องใช้ liff.scanCodeV2() ใช่ไหม ต้องเปิด setting อะไรใน Console?",
+    "should_trigger": false
+  },
+  {
+    "query": "我想在 LINE 官方帳號管理後台設定自動回應訊息，不用寫程式那種，直接在後台設關鍵字觸發的自動回覆要怎麼設定？排程訊息功能在哪裡開？",
+    "should_trigger": false
+  },
+  {
+    "query": "I'm building a LIFF app and need to send a message on behalf of the user using liff.sendMessages(). The message gets sent into the chat where the LIFF was opened. How do I format the message objects for liff.sendMessages?",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE MINI App のカスタム share message を実装したいです。liff.shareTargetPicker を使って友だちにシェアする時に、MINI App 専用のテンプレートメッセージを送る方法を教えてください",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากใช้ BLE beacon device ทำ proximity marketing แจ้งเตือนลูกค้าเวลาเดินเข้าร้าน ต้องซื้อ beacon รุ่นไหน firmware ต้อง config ยังไง Eddystone กับ iBeacon ต่างกันยังไง",
+    "should_trigger": false
+  },
+  {
+    "query": "I want to control a smart lock using LINE Things. How do I register a BLE device as a LINE Things product, set up the GATT service, and use automatic communication to trigger scenarios when the user is nearby?",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE MINI App 的 Service Message 跟 Messaging API 的 push message 到底差在哪？我們的 MINI App 拿到 notification token 之後要怎麼發 Service Message？跟一般 channel access token 發 push 有什麼不同？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE 公式アカウントの料金プランについて教えてください。無料メッセージの上限はプランごとに何通ですか？従量課金の単価はいくらですか？コミュニケーションプランとライトプランの違いは？",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากสร้าง LIFF permanent link ให้ user เปิด LIFF app จาก external browser ได้ ใช้ liff.permanentLink.createUrlBy() ยังไง? path กับ query parameter ใส่ได้ไหม?",
+    "should_trigger": false
+  },
+  {
+    "query": "After LINE Login, I want to check if the user has added our official account as a friend. The friendship status flag in the ID token — is that the right way? I need to conditionally show an 'Add Friend' button if they haven't friended us yet.",
+    "should_trigger": false
+  },
+  {
+    "query": "我們的 LINE MINI App 要接 In-App Purchase，purchaseComplete webhook 打過來的 payload 格式是什麼？跟 Messaging API 的 webhook event 結構一樣嗎？要怎麼驗證 signature？",
+    "should_trigger": false
+  },
+  {
+    "query": "I'm integrating Dialogflow CX with a webhook fulfillment. How do I configure rich response types in Dialogflow CX agent? The main issue is mapping Dialogflow CX response types to custom JSON payloads in the fulfillment cloud function.",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF app の pluggable SDK で liff.use() を使いたいです。@liff/is-api-available モジュールだけインポートしてバンドルサイズを減らす方法を教えてください",
+    "should_trigger": false
+  }
+]

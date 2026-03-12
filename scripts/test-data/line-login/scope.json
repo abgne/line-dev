@@ -1,0 +1,11 @@
+{
+  "knowledge_domain": "LINE Login",
+  "assess_scope": [
+    "- The skill covers LINE Login (OAuth 2.0/OpenID Connect) ONLY, NOT LINE Messaging API, LIFF SDK, LINE MINI App Service Messages, LINE Pay, LINE stickers, or non-LINE topics.",
+    "- LIFF and LINE MINI App *authentication* flows DO fall within scope (they use LINE Login under the hood)."
+  ],
+  "improve_scope": [
+    "- The skill covers LINE Login (OAuth 2.0 / OpenID Connect) ONLY. NOT LINE Messaging API, LIFF SDK features, LINE Pay, or LINE stickers.",
+    "- However, LIFF and LINE MINI App *authentication* flows are in scope (they use LINE Login)."
+  ]
+}

@@ -1,0 +1,283 @@
+[
+  {
+    "query": "LINE 通知メッセージで電話番号を SHA256 でハッシュ化する方法を教えてください。E.164 フォーマットとは何ですか？",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I send a notification message to a user via their phone number on LINE? They're not a friend of our official account yet.",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากส่ง LINE notification message ไปหา user ด้วยเบอร์โทร ต้อง hash เบอร์ยังไง? E.164 format คืออะไร?",
+    "should_trigger": true
+  },
+  {
+    "query": "我想用 LINE 通知訊息發送預約確認給客戶，他們不是我們官方帳號的好友，要怎麼透過電話號碼發送？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Notification Messages の template type と flexible type の違いは何ですか？UX レビューが必要なのはどちらですか？",
+    "should_trigger": true
+  },
+  {
+    "query": "What are the sending conditions for LINE notification messages? Under what circumstances will the message not be delivered even if the API returns 200?",
+    "should_trigger": true
+  },
+  {
+    "query": "通知訊息的 consent state 有哪些？如果用戶還沒設定 consent，訊息會怎麼處理？24 小時的 window 是什麼意思？",
+    "should_trigger": true
+  },
+  {
+    "query": "ส่ง notification message แล้ว API return 200 แต่ message ไม่ถูกส่งจริง เป็นไปได้ไหม? ทำไม?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 通知メッセージの送信件数をカウントする API はありますか？X-Line-Delivery-Tag はどう設定しますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I confirm that a LINE notification message was actually delivered? Is there a webhook event for delivery completion?",
+    "should_trigger": true
+  },
+  {
+    "query": "通知訊息的計費方式是什麼？被封鎖的用戶也會被計費嗎？怎麼確認實際送達數量？",
+    "should_trigger": true
+  },
+  {
+    "query": "notification message ส่งได้เฉพาะ Japan, Thailand, Taiwan จริงไหม? ต้องสมัครผ่าน LINE sales representative?",
+    "should_trigger": true
+  },
+  {
+    "query": "通知メッセージの SMS 認証は何日ごとに必要ですか？ユーザーが SMS 認証していない場合はどうなりますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "Can I use LINE notification messages for advertising or promotions? What content restrictions apply?",
+    "should_trigger": true
+  },
+  {
+    "query": "想用 LINE 通知訊息的 template type 發送，templateKey 和 templateItemKeys 要怎麼設定？",
+    "should_trigger": true
+  },
+  {
+    "query": "flexible type の通知メッセージを送る前に UX レビューが必要と聞きました。レビューのプロセスを教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "เบอร์โทรต้อง hash ด้วย SHA256 ก่อนส่ง notification message ใช่ไหม? country code ต้องใส่ไหม? ขีดกลางต้องเอาออกไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "What happens when a notification message is sent to a non-friend user? Can they add the official account as a friend afterward?",
+    "should_trigger": true
+  },
+  {
+    "query": "通知訊息 API 回 202 是什麼意思？跟回 200 有什麼差別？都不能保證送達嗎？",
+    "should_trigger": true
+  },
+  {
+    "query": "通知メッセージを送る時に IP アドレス制限をかけてはいけないのはなぜですか？セキュリティ設定で注意すべき点は？",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I use the count API to check how many notification messages were actually delivered? What's the endpoint?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 通知訊息的 template button key 要怎麼設定？button_uri_1 可以動態帶入不同的 URL 嗎？",
+    "should_trigger": true
+  },
+  {
+    "query": "notification message の delivery completion event は webhook でどのように受信しますか？event の構造を教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "ส่ง notification message ไปแล้ว user ที่ถูก block จะเห็น message ไหม? API จะ return error ไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "通知メッセージで「重要なお知らせ」ラベルが表示されますが、これはどのバージョンの LINE からサポートされていますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "X-Line-Retry-Key can be used for notification messages, right? How do I handle retries when sending PNP messages?",
+    "should_trigger": true
+  },
+  {
+    "query": "通知訊息每次送出都會觸發系統訊息嗎？那個「已收到 LINE 通知訊息」的系統訊息可以關掉嗎？",
+    "should_trigger": true
+  },
+  {
+    "query": "PNP の API エンドポイントは /bot/pnp/push ですか？リクエストボディの構造を教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากนับจำนวน notification message ที่ส่งสำเร็จจริง ต้องใช้ X-Line-Delivery-Tag ยังไง? count API endpoint คืออะไร?",
+    "should_trigger": true
+  },
+  {
+    "query": "我要用 Python 把台灣手機號碼 hash 成 SHA256 傳給 LINE 通知訊息 API，+886 開頭的 E.164 格式要怎麼處理？",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I set up LINE notification messages for my business in Thailand? What's the application process?",
+    "should_trigger": true
+  },
+  {
+    "query": "通知メッセージのユーザー同意は包括的ですか？一つの公式アカウントに同意すると、他のアカウントからの通知も受信されますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "notification message 送信後に非友だちユーザーから postback event が来ることはありますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "เงื่อนไขการส่ง notification message มีอะไรบ้าง? ทั้ง 6 ข้อต้องผ่านหมดใช่ไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "通知訊息的 flexible type 可以用 Flex Message 嗎？Carousel 容器也可以嗎？UX review 要多久？",
+    "should_trigger": true
+  },
+  {
+    "query": "What is the difference between template notification messages and flexible notification messages? Which one should I use for a simple reservation confirmation?",
+    "should_trigger": true
+  },
+  {
+    "query": "通知メッセージのテンプレートキーの登録方法を教えてください。テンプレートは何個まで登録できますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "ส่ง notification message ให้ user ที่ยังไม่ set consent จะเกิดอะไรขึ้น? user จะเห็น consent prompt ไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "通知訊息是透過 Messaging API channel 發送的嗎？需要另外申請 channel 嗎？channel access token 用哪一種？",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me review this notification message implementation — is the phone number hashing correct? Should I remove hyphens before hashing?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 通知メッセージで非友だちユーザーにデフォルト Rich Menu が表示される仕組みを教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I hash a Thai phone number for LINE notification messages? Does the +66 prefix need to be included?",
+    "should_trigger": true
+  },
+
+  {
+    "query": "LINE Bot で push message を送りたいのですが、特定のユーザー ID に対して送る方法を教えてください。rate limit はどのくらいですか？",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I use the Messaging API to reply to a user's message? My bot receives a webhook event but I'm not sure how to format the reply",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากส่ง push message ไปหา user ด้วย userId multicast ทำยังไง? ส่งได้ครั้งละกี่คน?",
+    "should_trigger": false
+  },
+  {
+    "query": "我想用 LIFF 的 liff.sendMessages() 在聊天室裡發訊息，要怎麼格式化 message object？只能在 LIFF browser 裡用嗎？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Login の OAuth 2.0 フローで access token を取得した後、token の refresh と revoke はどうやりますか？有効期限は何日ですか？",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I implement LINE Login with PKCE in my Next.js app? Where do I configure the redirect URI?",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE MINI App 的 Service Message 跟 Messaging API 的 push message 差在哪？notification token 怎麼發？跟一般 channel access token 發 push 有什麼不同？",
+    "should_trigger": false
+  },
+  {
+    "query": "MINI App の Service Message を送るために notification token を取得するにはどうすればいいですか？LIFF access token が必要ですか？",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากส่ง Service Message จาก LINE MINI App ต้อง issue notification token ยังไง? ใช้ liffAccessToken อะไร?",
+    "should_trigger": false
+  },
+  {
+    "query": "MINI App 的 Service Message template 怎麼建立？BCP 47 tag 是什麼？template variable 要怎麼設定？",
+    "should_trigger": false
+  },
+  {
+    "query": "Messaging API の webhook event を受信するためのサーバー設定方法を教えてください。x-line-signature の検証方法は？",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I verify the LINE webhook signature in Express.js? The HMAC-SHA256 validation keeps failing with 403",
+    "should_trigger": false
+  },
+  {
+    "query": "想做一個 Flex Message 的收據樣板，有商品名稱、數量、單價、小計，最下面有一個總金額跟一個 Pay Now 按鈕",
+    "should_trigger": false
+  },
+  {
+    "query": "Rich Menu でタブ切り替えはどうやりますか？richmenuswitch action と alias の使い方を教えてください",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากทำ narrowcast ส่งให้เฉพาะ audience ที่มี interaction ใน 30 วัน audience สร้างยังไง? filter demographic ยังไง?",
+    "should_trigger": false
+  },
+  {
+    "query": "channel access token 的 stateless token 跟 v2.1 token 差在哪？要怎麼用 JWT assertion 自動更新？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Pay API の決済フローを教えてください。sandbox でテストする方法も知りたいです。reserve と confirm のエンドポイントは？",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I broadcast a message to all friends of my LINE Official Account? Is there a limit on how many messages I can broadcast per month?",
+    "should_trigger": false
+  },
+  {
+    "query": "我想用 liff.shareTargetPicker 讓用戶從 LIFF 頁面選擇好友分享 Flex Message，isMultiple 參數怎麼用？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE MINI App の Common Profile Quick Fill を使ってフォームに自動入力したいです。data-liff-autocomplete はどう設定しますか？",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากทำ LINE Bot ที่ตอบกลับอัตโนมัติด้วย Flex Message เวลา user ส่งข้อความมา ต้อง verify webhook signature ยังไง?",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Login で取得した ID Token の JWT 署名検証方法を教えてください。HS256 と ES256 はどう使い分けますか？",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I get user profile information after LINE Login? What scopes do I need — profile, openid, or email?",
+    "should_trigger": false
+  },
+  {
+    "query": "Messaging API で Flex Message Carousel を作りたいです。Bubble の最大数と JSON サイズの上限を教えてください",
+    "should_trigger": false
+  },
+  {
+    "query": "想在 app 裡放一個按鈕，點了直接打開 LINE 跟我們的官方帳號聊天，URL scheme 要怎麼寫？iOS 跟 Android 有差嗎？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE MINI App のアクションボタンはどこに表示されますか？カスタマイズはできますか？multi-tab は verified のみですか？",
+    "should_trigger": false
+  },
+  {
+    "query": "ส่ง push message ไปแล้วอยากดูสถิติว่าส่งสำเร็จกี่ข้อความ มี API ดึง insights ของ message deliveries ไหม",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Notify の token を取得してグループに通知を送りたいです。Bot を作らずに簡単に通知を送る方法を教えてください",
+    "should_trigger": false
+  }
+]

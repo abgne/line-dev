@@ -1,0 +1,65 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Shopping List",
+        "weight": "bold",
+        "size": "lg"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://example.com/mug.png",
+            "size": "xs",
+            "aspectMode": "cover",
+            "flex": 1
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {"type": "text", "text": "Brown Mug", "size": "sm", "weight": "bold"},
+              {"type": "text", "text": "$15.00", "size": "xs", "color": "#888888"}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://example.com/notebook.png",
+            "size": "xs",
+            "aspectMode": "cover",
+            "flex": 1
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {"type": "text", "text": "Cony Notebook", "size": "sm", "weight": "bold"},
+              {"type": "text", "text": "$10.00", "size": "xs", "color": "#888888"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

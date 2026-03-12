@@ -1,0 +1,262 @@
+[
+  {
+    "query": "LINE Login 的 OAuth 2.0 流程中，authorize endpoint 回來的 code 要怎麼換 access token？redirect_uri 要完全一致嗎？",
+    "should_trigger": true
+  },
+  {
+    "query": "My Next.js site needs a 'Login with LINE' feature. How do I implement the PKCE flow? How do I generate code_verifier and code_challenge?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login で取得した ID Token は JWT ですが、HS256 と ES256 はどのような場合に使い分けますか？署名の検証方法を教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากวาง LINE Login button บนหน้า login สเปคสีทางการคืออะไร? hover กับ disabled state ต้องจัดการสียังไง? padding มีกำหนดไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login のコールバックで friendship_status_changed が返ってくるんですが、bot_prompt パラメータの normal と aggressive の違いを教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "My LINE Login access token is about to expire. How long does the refresh token last? After refreshing, do I get a new refresh token or the same one?",
+    "should_trigger": true
+  },
+  {
+    "query": "用戶在 LINE app 的「已授權應用」裡取消了我們 app 的授權，token 會立刻失效嗎？要怎麼偵測這種情況？",
+    "should_trigger": true
+  },
+  {
+    "query": "auto login ใน iOS บาง device ล้มเหลวตลอด state mismatch ใช้ disable_auto_login parameter ยังไง? จะแยกได้ยังไงว่าเป็น auto login fail หรือ CSRF?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login SDK を iOS アプリに組み込みたいです。Swift で実装する場合の手順と、Web Login との違いを教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "After LINE Login I want to get the user's email. What scope do I need? Is the email always available or does the user have to register one?",
+    "should_trigger": true
+  },
+  {
+    "query": "OpenID Connect discovery endpoint 在哪？想用 auto-discovery 設定 client library",
+    "should_trigger": true
+  },
+  {
+    "query": "LIFF 裡面的認證流程是怎麼運作的？它是用 LINE Login 嗎？access token 跟一般 web login 拿到的一樣嗎？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE MINI App を開くときユーザーはログインが必要ですか？認証は LINE Login のフローですか？consent screen は表示されますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login error handling — what error codes can the authorize endpoint return? How to handle access_denied vs server_error?",
+    "should_trigger": true
+  },
+  {
+    "query": "บริษัทเราใช้ Azure AD อยากรวม LINE Login เข้ากับ SSO ให้พนักงาน login ระบบภายในด้วย LINE account OpenID Connect discovery endpoint อยู่ที่ไหน?",
+    "should_trigger": true
+  },
+  {
+    "query": "What values can the amr claim in the ID Token have? How do I know if the user logged in via QR code or auto login?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login で Web Login と App Login の違い — redirect の挙動差",
+    "should_trigger": true
+  },
+  {
+    "query": "ユーザーが退会するとき deauthorize endpoint を呼ぶ必要がありますが、Authorization header には何を設定しますか？channel access token と user access token の違いは？",
+    "should_trigger": true
+  },
+  {
+    "query": "channel secret วางที่ frontend ได้ไหม? client_secret ตอน token exchange ต้องส่งเสมอไหม? App types setting มีผลยังไง?",
+    "should_trigger": true
+  },
+  {
+    "query": "token introspection — ตรวจสอบ access token ยังใช้ได้ไหม verify endpoint return อะไรบ้าง",
+    "should_trigger": true
+  },
+  {
+    "query": "Does the state parameter have to use crypto random? Can I use the session ID? What's the difference between nonce and state?",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我 review 这段 LINE Login callback handler，看看有没有安全漏洞，state 验证和 token 处理是否正确",
+    "should_trigger": true
+  },
+  {
+    "query": "Implementing \"silent authentication\" with prompt=none — how to check if user is already logged in without showing consent screen",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login で取得した access token でユーザープロフィールを取得したいです。profile API のエンドポイントと返ってくるフィールドを教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "ระบบ login ของเราใช้ LINE Login แต่ token verify ตอบ 400 กลับมา อยากรู้ว่า error description แต่ละตัวหมายถึงอะไร",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login 的 channel 要在 LINE Developers Console 的哪裡建立？App types 有哪些選項？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login 的 authorize URL 有個 prompt 參數，consent、login、none 分別是什麼意思？什麼時候會用到 prompt=none？",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I check if a user is friends with my LINE Official Account after they log in? Is there a friendship status API?",
+    "should_trigger": true
+  },
+  {
+    "query": "既存ユーザーが LINE Login を使って別の provider でログインした場合、userId は変わりますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "I'm implementing LINE Login in my Django app. After the user authorizes, the callback receives a code — how do I exchange it for tokens? Do I need to send client_secret?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login がデスクトップブラウザでは動くのに、モバイル Safari では失敗します。コールバック URL への redirect が止まります。Universal Links の問題ですか？",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login callback ได้ error=access_denied user ปฏิเสธ consent ต้อง handle ยังไง redirect กลับไปหน้า login ได้ไหม",
+    "should_trigger": true
+  },
+  {
+    "query": "What scopes should I request for LINE Login if I only need the user's display name and profile picture? Do I need openid or just profile?",
+    "should_trigger": true
+  },
+  {
+    "query": "ตรวจสอบ ID Token ต้อง check iss, aud, exp ใช่ไหม? nonce ต้อง verify ยังไง?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Login の access token の有効期限は何時間ですか？期限切れを自動的に refresh する実装パターンを教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากทำระบบ login ด้วย LINE บนเว็บ React ใช้ PKCE flow ต้องตั้งค่า redirect URI ตรงไหนใน LINE Developers Console?",
+    "should_trigger": true
+  },
+  {
+    "query": "After LINE Login I want to link the user with our CRM. Should I use userId from the profile API, or sub from the ID Token?",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to build a LINE Bot in Python. When a user sends an image, the bot should recognize the content and reply with text. How do I receive image events from the webhook?",
+    "should_trigger": false
+  },
+  {
+    "query": "Flex Message で領収書テンプレートを作りたいです。商品名、数量、単価、小計、合計金額と Pay Now ボタンを含めてください",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF app 裡的 liff.getAccessToken() 跟 LINE Login 拿到的 access token 是同一個嗎？可以互換使用嗎？",
+    "should_trigger": false
+  },
+  {
+    "query": "Rich Menu でタブ切り替えはどうやりますか？richmenuswitch action と alias の使い方を教えてください",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากทำ narrowcast ส่งให้เฉพาะ audience ที่มี interaction ใน 30 วัน audience สร้างยังไง?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I verify the webhook signature from LINE? My Express.js bot keeps getting 403 errors",
+    "should_trigger": false
+  },
+  {
+    "query": "我想在 LIFF 裡面用 liff.getProfile() 拿用戶資料，然後用 liff.sendMessages() 發訊息到聊天室，LIFF SDK 要用 CDN 還是 npm？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE MINI App のチャネル consent simplification は openid scope だけスキップされますか？profile scope は？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Pay API の決済フローを教えてください。sandbox 環境でテストする方法も知りたいです",
+    "should_trigger": false
+  },
+  {
+    "query": "I want to design a set of LINE stickers with a Shiba Inu character. What are the size specs, required count, and Creators Market review guidelines?",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากทำ LIFF app ที่เปิดใน LINE แล้วดึง user profile ด้วย liff.getProfile() ต้อง request scope อะไร",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我用 liff.shareTargetPicker 做分享功能，让用户从 LIFF 页面选择好友来分享 Flex Message",
+    "should_trigger": false
+  },
+  {
+    "query": "如何在 Firebase Authentication 裡整合多個 social login provider？Facebook 跟 Google 的 OAuth callback 要分開處理嗎？",
+    "should_trigger": false
+  },
+  {
+    "query": "channel access token 快到期了，想用 JWT assertion 做自動 rotate，stateless token 跟 v2.1 token 差在哪",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Bot 的 channel access token 快到期了，要怎麼用 JWT assertion 自動更新？",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me check if this webhook handler's signature validation is correct. My bot keeps getting 403",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE MINI App の Service Message はどうやって送りますか？notification token とは何ですか？通常の push message と何が違いますか？",
+    "should_trigger": false
+  },
+  {
+    "query": "MINI App の Service Message を送るために notification token を取得したいです。LIFF access token が必要ですか？",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF app 裡 liff.getProfile() 拿到的 userId 可以直接存進資料庫當 primary key 嗎？跨 provider 會重複嗎？",
+    "should_trigger": false
+  },
+  {
+    "query": "postback event 收到後要怎麼解析 data 和 datetimepicker 的 params？replyToken 可以用多久？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Developers Console 裡 Messaging API channel 的 channel secret 在哪裡找？可以 reset 嗎？",
+    "should_trigger": false
+  },
+  {
+    "query": "I want to add a button in our app that opens LINE and starts a chat with our Official Account. What URL scheme should I use?",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF app 取得的 access token 過期了，在 LIFF browser 裡面可以自動 refresh 嗎？還是要重新 init？",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I set up a LINE Messaging API webhook in my Express.js app? The signature validation keeps failing with 403",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF app で liff.scanCodeV2() を使って QR コードを読み取りたいです。Console でどの設定をオンにする必要がありますか？",
+    "should_trigger": false
+  },
+  {
+    "query": "Messaging API で Flex Message を作りたいです。bubble と carousel の違いと JSON サイズの上限を教えてください",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากทำ LINE Bot ที่ตอบกลับอัตโนมัติด้วย Flex Message เวลา user ส่งข้อความมา ต้อง verify webhook signature ยังไง?",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากทำ LIFF app ให้ user สแกน QR Code ต้องใช้ liff.scanCodeV2() ใช่ไหม ต้องเปิด setting อะไรใน Console?",
+    "should_trigger": false
+  }
+]

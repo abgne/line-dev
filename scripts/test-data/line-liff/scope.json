@@ -1,0 +1,13 @@
+{
+  "knowledge_domain": "LIFF",
+  "assess_scope": [
+    "- The skill covers LIFF SDK (LINE Front-end Framework) ONLY, NOT LINE Login OAuth flow, LINE Messaging API (webhook/push/reply), LINE Pay, LINE stickers, or non-LINE topics.",
+    "- LIFF *authentication* (liff.login, liff.getIDToken, liff.getProfile) IS in scope.",
+    "- LINE Login OAuth 2.0 flow (authorize endpoint, PKCE, token exchange) is NOT in scope — that's a separate skill."
+  ],
+  "improve_scope": [
+    "- The skill covers LIFF SDK (LINE Front-end Framework) ONLY. NOT LINE Login OAuth flow, LINE Messaging API, LINE Pay, or LINE stickers.",
+    "- However, LIFF authentication methods (liff.login, liff.getIDToken, liff.getProfile) ARE in scope.",
+    "- LINE Login OAuth 2.0 flow (authorize, PKCE, token exchange) is NOT in scope — separate skill."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "knowledge_domain": "LINE API",
+  "assess_scope": [
+    "- The skill covers LINE Messaging API only, NOT LIFF, LINE Login, LINE MINI App, LINE stickers, or non-LINE topics."
+  ],
+  "improve_scope": [
+    "- The skill covers LINE Messaging API ONLY. NOT LIFF, LINE Login, LINE MINI App, or LINE stickers."
+  ]
+}

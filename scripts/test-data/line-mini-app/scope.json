@@ -1,0 +1,15 @@
+{
+  "knowledge_domain": "LINE MINI App",
+  "assess_scope": [
+    "- The skill covers LINE MINI App ONLY — an enhanced LIFF platform with Service Messages, Common Profile Quick Fill, In-App Purchase, Console setup, and submission review.",
+    "- MINI App is built on LIFF, but general LIFF SDK questions (liff.init, liff.sendMessages, Share Target Picker, LIFF plugins, Module Mode) go to a separate LIFF skill.",
+    "- If the user explicitly mentions 'MINI App' context with LIFF APIs, this skill IS in scope.",
+    "- LINE Login OAuth flow (authorize, PKCE, token exchange), LINE Messaging API (webhook/push/reply/Flex Message), LINE Pay API details are NOT in scope."
+  ],
+  "improve_scope": [
+    "- The skill covers LINE MINI App ONLY — NOT general LIFF SDK, LINE Login OAuth, LINE Messaging API, or LINE Pay.",
+    "- MINI App is built on LIFF, but general LIFF usage (liff.init, liff.sendMessages, Share Target Picker, LIFF plugins) belongs to a separate LIFF skill.",
+    "- When user explicitly mentions 'MINI App' context, this skill should trigger even for LIFF-related operations.",
+    "- MINI App-specific features: Service Messages, Common Profile Quick Fill, In-App Purchase, Console setup (3 channels), submission review."
+  ]
+}
