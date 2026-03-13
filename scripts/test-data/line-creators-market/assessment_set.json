@@ -1,0 +1,274 @@
+[
+  {
+    "query": "我想設計一組 LINE 貼圖，角色是柴犬，想知道尺寸規格、需要做幾張、還有 Creators Market 審核要注意什麼",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to design a set of LINE stickers with a Shiba Inu character. What are the size specs, required count, and Creators Market review guidelines?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE スタンプの審核にかかる時間はどのくらいですか？リジェクトされた場合の再申請手順を教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากทำ LINE sticker ตัวละครเป็นแมว ต้องทำกี่รูป ขนาดเท่าไหร่ animated sticker ต้องเป็น APNG ใช่ไหม",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 動態貼圖的 APNG 規格是什麼？幀數限制、播放時間、循環次數、檔案大小上限各是多少？",
+    "should_trigger": true
+  },
+  {
+    "query": "What's the difference between LINE popup stickers and effect stickers? What are the layer size requirements for each?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE の絵文字（emoji）を作りたいです。ステッカーとの違いは何ですか？サイズは 180x180 ですか？何個セットで販売できますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากทำ LINE theme ต้องเตรียมรูปกี่รูป? menu button size เท่าไหร่? password screen ต้องทำทั้ง iOS และ Android ใช่ไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 貼圖的收益分配怎麼算？Apple 跟 Google 的平台手續費各多少？日本的預扣稅率是多少？",
+    "should_trigger": true
+  },
+  {
+    "query": "How does LINE Sticker Premium work? Which sticker types are eligible? What countries is it available in?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Creators Market でスタンプの販売価格を変更する手順を教えてください。販売中のスタンプの価格変更には制限がありますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากรู้ว่า LINE Sticker Maker app ทำ sticker ได้กี่ชิ้น? animated ทำได้ไหม? review นานแค่ไหร่? ต่างจาก web ยังไง?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 貼圖用了 AI 生成，要怎麼設定 AI 使用宣告？不設定會怎樣？",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to create custom stickers (隨你填貼圖) where users can add their own text. What are the sales region restrictions? Can I sell in Japan and Taiwan at the same time?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE のメッセージスタンプと通常のスタンプの違いは何ですか？テキスト入力の文字数制限はありますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากขาย LINE sticker ในตลาดญี่ปุ่น ต้องทำ title กับ description เป็นภาษาญี่ปุ่นด้วยไหม? tag ใส่ได้กี่อัน?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 大貼圖（Big Stickers）的尺寸跟一般貼圖差多少？最小和最大尺寸各是多少？",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I optimize my LINE sticker SEO? What keywords should I use in the title and description to rank higher in LINE Store search?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE スタンプの審核ガイドラインで、リジェクトされやすいパターンはどんなものがありますか？著作権、肖像権で注意すべき点は？",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากทำ animated emoji สำหรับ LINE ขนาดเท่าไหร่? file size จำกัดกี่ KB? loop ได้กี่รอบ?",
+    "should_trigger": true
+  },
+  {
+    "query": "我想用 LINE 拍貼 app 製作照片貼圖，照片轉動態的播放時間怎麼算？選 5 張跟 20 張照片有什麼差？",
+    "should_trigger": true
+  },
+  {
+    "query": "What's the revenue difference between free download stickers and paid stickers on LINE Creators Market? When did the free default policy start?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE テーマの配色設定で、チャットの吹き出し色、テキスト色、ナビゲーションバーのテキスト色をカスタマイズしたいです。設定できる項目を全て教えてください",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากสร้าง character ให้น่าจดจำ มีคนแนะนำให้ดู creator ชื่อดังเป็นตัวอย่าง ใน Creators Market มีใครประสบความสำเร็จบ้าง?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 貼圖提交審核前的完整 checklist 有哪些？背景透明度、邊距、檔案大小、偶數尺寸這些要注意什麼？",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to create a sticker set targeting the Taiwan market. What local slang or cultural elements should I include? What's the best pricing strategy?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE スタンプのタグは最大何個設定できますか？タグを設定すると入力サジェストに表示されるんですか？メッセージスタンプはタグ非対応ですか？",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากทำ LINE sticker 5 style ต่างกัน: แนว healing, ตลก, sarcastic, cute, realistic — แต่ละ style ควรออกแบบยังไง?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 貼圖的隱私設定是什麼？設定「不顯示於 LINE STORE」之後，別人還能買到嗎？",
+    "should_trigger": true
+  },
+  {
+    "query": "How many stickers do I need for each LINE sticker type? Static allows 8/16/24/32/40 but animated only 8/16/24 — is that right?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE Creators Market の創意人註冊で、個人と法人の違いは何ですか？ビジネスタイプの変更はできますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากรู้ว่า sticker arranger คืออะไร? sticker แบบไหนร่วมได้ ร่วมไม่ได้?",
+    "should_trigger": true
+  },
+  {
+    "query": "我的 LINE 貼圖被退回了，理由是「不適合在對話中使用」，這是什麼意思？要怎麼改才能通過？",
+    "should_trigger": true
+  },
+  {
+    "query": "What are the LINE theme image filename conventions? What's the menu button OFF/ON naming pattern like i_29.png / i_30.png?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE スタンプの全画面スタンプ（popup sticker）のサムネイルと popup layer の仕様を教えてください。APNG の再生は最大何秒ですか？",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากทำ LINE emoji ขายทั่วโลก ต้องเตรียม description กี่ภาษา? ภาษาอังกฤษเป็น required ใช่ไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 主題的 menu 背景圖片尺寸是 1472x150 嗎？要怎麼做無縫拼接？透明度有什麼限制？",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I calculate my expected earnings from LINE stickers sold via LINE STORE vs Apple App Store? The platform fees are different, right?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE の特効スタンプ（effect sticker）で、エフェクト画像にホワイトボーダーは自動的に追加されますか？サムネイルとエフェクトで仕様が違いますか？",
+    "should_trigger": true
+  },
+  {
+    "query": "อยากลงทะเบียนเป็น creator ใน LINE Creators Market ต้องทำยังไงบ้าง? ต้องมี LINE account ใช่ไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "LINE 拍貼 app 被退回的貼圖能在 app 裡直接修改重送嗎？還是一定要用電腦網頁版？",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to build a LINE Bot in Python. When a user sends a message, how do I receive webhook events and reply?",
+    "should_trigger": false
+  },
+  {
+    "query": "幫我做一個 Flex Message 的收據樣板，要有商品名稱、數量、單價、小計，最下面有一個 Pay Now 按鈕",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE 公式アカウントに Rich Menu を設定してタブ切り替えしたいです。richmenuswitch action と alias の設定方法を教えてください",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากทำ narrowcast ส่งให้เฉพาะ audience ที่คลิกลิงก์ใน 30 วัน audience สร้างยังไง?",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Login 的 OAuth 2.0 流程中，authorize endpoint 回來的 code 要怎麼換 access token？PKCE 怎麼實作？",
+    "should_trigger": false
+  },
+  {
+    "query": "My Next.js site needs a 'Login with LINE' button. How do I implement the PKCE flow with LINE Login?",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF app の liff.init() が INIT_FAILED エラーで失敗します。Endpoint URL と実際のデプロイ URL が異なると影響がありますか？",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากใช้ liff.shareTargetPicker ส่ง Flex Message ให้เพื่อน ต้อง check isApiAvailable ก่อนไหม?",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE MINI App 的 Service Message 跟 Messaging API 的 push message 差在哪？notification token 要怎麼拿？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE MINI App の Common Profile Quick Fill を使いたいです。data-liff-autocomplete の設定方法を教えてください",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากส่ง LINE notification message ผ่านเบอร์โทร hash phone number เป็น SHA256 ยังไง? PNP push API endpoint คืออะไร?",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE 通知訊息的 template type 跟 flexible type 差在哪？哪個需要 UX review？",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I verify the LINE webhook signature? My Express.js bot keeps getting 403 errors on x-line-signature validation",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Pay API の決済フローを教えてください。sandbox 環境でテストする方法も知りたいです",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากทำ chatbot LINE ที่ตอบกลับอัตโนมัติด้วย Flex Message ต้อง verify webhook signature ยังไง?",
+    "should_trigger": false
+  },
+  {
+    "query": "LIFF 裡面的 liff.getIDToken() 拿到的 JWT 要送到 server 驗證，HS256 跟 ES256 差在哪？",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE MINI App の In-App Purchase で reserve endpoint を呼んだ後の流れを教えてください",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to get all follower user IDs for our LINE official account using the Messaging API. Is there a bulk API with pagination?",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Login で取得した ID Token の claims（sub, name, email）の詳細を教えてください。ES256 署名の検証方法は？",
+    "should_trigger": false
+  },
+  {
+    "query": "ส่ง multicast ไปหลายคนแล้วได้ error 429 rate limit ของ Messaging API เป็นยังไง ต้องรอนานแค่ไหน?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I set up a LIFF app from scratch in LINE Developers Console? What's the difference between Full, Tall, and Compact view sizes?",
+    "should_trigger": false
+  },
+  {
+    "query": "想請教 Photoshop 的圖層混合模式，Multiply 跟 Screen 差在哪？要怎麼做半透明效果？",
+    "should_trigger": false
+  },
+  {
+    "query": "Illustrator で SVG ファイルを書き出す方法を教えてください。Web 用の最適化設定は？",
+    "should_trigger": false
+  },
+  {
+    "query": "อยากเรียน digital art วาดรูปบน iPad ใช้ Procreate กับ Clip Studio Paint อันไหนดีกว่า?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I create animated GIFs from a video clip? I want to make reaction GIFs for social media",
+    "should_trigger": false
+  },
+  {
+    "query": "LINE Developers Console 裡怎麼建立 Messaging API Channel？設定 webhook URL 的步驟是什麼？",
+    "should_trigger": false
+  },
+  {
+    "query": "channel access token 快過期了，想用 JWT assertion 做自動 rotate，stateless token 跟 v2.1 token 差在哪？",
+    "should_trigger": false
+  }
+]

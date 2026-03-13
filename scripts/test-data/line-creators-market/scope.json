@@ -1,0 +1,15 @@
+{
+  "knowledge_domain": "LINE Creators Market",
+  "assess_scope": [
+    "- The skill covers LINE Creators Market ONLY — sticker creation (all 7 types: static, animated, custom, message, big, popup, effect), emoji, themes, LINE Sticker Maker app, submission/review workflow, revenue model, and market strategy.",
+    "- LINE sticker/emoji/theme *design, specs, submission, pricing, review* questions ARE in scope.",
+    "- LINE Messaging API (webhook/push/reply/Flex Message), LINE Login (OAuth), LIFF SDK, LINE MINI App, LINE Pay, LINE Notification Messages are NOT in scope.",
+    "- General graphic design questions unrelated to LINE stickers/emoji/themes are NOT in scope."
+  ],
+  "improve_scope": [
+    "- The skill covers LINE Creators Market ONLY. NOT LINE Messaging API, LIFF, LINE Login, LINE MINI App, LINE Pay, or LINE Notification Messages.",
+    "- All sticker types (static, animated, custom, message, big, popup, effect), emoji (static/animated), themes, and LINE Sticker Maker are in scope.",
+    "- Revenue model, pricing, review guidelines, market strategy, AI usage declaration, and Sticker Premium are in scope.",
+    "- General illustration or graphic design questions without LINE context are NOT in scope."
+  ]
+}
