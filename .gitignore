@@ -1,4 +1,6 @@
 .DS_Store
+.claude/
+.agents/
 *.pyc
 __pycache__/
 .venv/
