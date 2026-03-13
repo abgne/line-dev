@@ -8,7 +8,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-SKILLS=(messaging-api line-login line-liff line-mini-app line-notification-message)
+SKILLS=(messaging-api line-login line-liff line-mini-app line-notification-message line-creators-market)
 
 PASS=0
 FAIL=0

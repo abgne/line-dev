@@ -1,6 +1,6 @@
 # line-dev
 
-AI agent skills for LINE platform development. Build bots, login flows, LIFF apps, MINI Apps, and notification messages with up-to-date API references.
+AI agent skills for LINE platform development. Build bots, login flows, LIFF apps, MINI Apps, notification messages, and LINE stickers/emoji/themes with up-to-date API references.
 
 ## Contents
 
@@ -46,6 +46,7 @@ npx skills add abgne/line-dev@line-login
 npx skills add abgne/line-dev@line-liff
 npx skills add abgne/line-dev@line-mini-app
 npx skills add abgne/line-dev@line-notification-message
+npx skills add abgne/line-dev@line-creators-market
 ```
 
 ---
@@ -59,6 +60,7 @@ npx skills add abgne/line-dev@line-notification-message
 | [line-liff](skills/line-liff/) | LIFF SDK, liff.init, sendMessages, Share Target Picker, QR scan, permanent links, pluggable SDK |
 | [line-mini-app](skills/line-mini-app/) | Service Messages, Common Profile Quick Fill, In-App Purchase, Console setup, submission review |
 | [line-notification-message](skills/line-notification-message/) | Phone-number-based PNP push, SHA256 hashing, template/flexible types, delivery webhook, consent flow, SMS auth |
+| [line-creators-market](skills/line-creators-market/) | Sticker creation (7 types), emoji, themes, technical specs, review guidelines, revenue model, AI usage declaration, LINE Sticker Maker, market strategy |
 
 Each skill includes reference files covering API specs, expert guidance, and region-specific details for **Japan**, **Thailand**, and **Taiwan**.
 
@@ -101,3 +103,4 @@ pip install claude-agent-sdk
 | line-mini-app | 99% | 174/176 |
 | line-login | 92% | 60/65 |
 | line-liff | 92% | 66/72 |
+| line-creators-market | 100% | 68/68 |
