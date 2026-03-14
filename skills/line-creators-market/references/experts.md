@@ -121,7 +121,7 @@ Maintains an **inspiration notebook** on his phone, categorizing all kinds of to
 4. **Seasonal head start**: Prepare holiday specials early
 
 ### Reference
-- LINE Store: https://store.line.me/stickershop/author/75592/zh-Hant
+- LINE Store: https://store.line.me/stickershop/author/75592/en
 
 ---
 

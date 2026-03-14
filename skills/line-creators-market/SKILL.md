@@ -104,9 +104,13 @@ Launch Timing:
 | [creators-market-guide.md](references/creators-market-guide.md) | Creators Market platform operations, review rules, and revenue model |
 | [theme-specs.md](references/theme-specs.md) | Theme design best practices, color coordination, readability tips |
 
+## Language-Aware Links
+
+All Creators Market URLs use `https://creator.line.me/{lang}/...`. Match `{lang}` to the user's language (see [creators-market-guide.md](references/creators-market-guide.md) for the full mapping). Default to `en` if uncertain.
+
 ## Tools
 
-- **LINE Sticker Maker**: [iOS](https://itunes.apple.com/jp/app/line/id1239684967) | [Android](https://play.google.com/store/apps/details?id=com.linecorp.usersticker) — mobile sticker creation from photos/videos
+- **LINE Sticker Maker**: [iOS](https://itunes.apple.com/jp/app/line/id1239684967) | [Android](https://play.google.com/store/apps/details?id=com.linecorp.usersticker) | [Info](https://creator.line.me/{lang}/stickermaker/) — mobile sticker creation from photos/videos
 - **Sticker Simulator**: Preview stickers in chat room context before submission (in Creators Market web dashboard)
 - **Photoshop Template**: Official PSD template for theme creation (CS6+)
-- **LINE STORE Search**: [LINE拍貼 stickers](https://store.line.me/search/sticker/zh-Hant?q=LINE%E6%8B%8D%E8%B2%BC) — browse existing LINE Sticker Maker creations
+- **LINE STORE Search**: [LINE Sticker Maker](https://store.line.me/search/sticker/en?q=LINE+Sticker+Maker) — browse existing LINE Sticker Maker creations

@@ -1,8 +1,8 @@
 # LINE Creators Market Platform Guide
 
 Sources:
-- LINE Creators Market (https://creator.line.me/zh-hant/)
-- LINE CREATORS MARKET Manual (https://linecreator-manual-tw.blog.jp/)
+- LINE Creators Market (`https://creator.line.me/{lang}/` — see Language-Aware URLs section)
+- LINE Sticker Maker (`https://creator.line.me/{lang}/stickermaker/`)
 
 ---
 
@@ -20,7 +20,7 @@ LINE Creators Market is LINE's official marketplace for selling creative digital
 
 ## Account Registration
 
-1. Go to https://creator.line.me/zh-hant/
+1. Go to `https://creator.line.me/{lang}/`
 2. Log in with your LINE account
 3. Agree to terms of service
 4. Enter business information
@@ -109,18 +109,20 @@ When set to "Do not display in LINE STORE / Sticker Shop":
 
 ### Step 6: Set Price
 
-#### Sticker Price Options (NTD)
+#### Sticker Price Options (JPY)
 | Price | Availability |
 |-------|-------------|
-| NTD 30 | Static stickers only (not for animated) |
-| NTD 60 | All types |
-| NTD 90 | All types |
-| NTD 120 | All types |
-| NTD 150 | All types |
+| ¥120 | Static stickers only (not for animated) |
+| ¥250 | All types |
+| ¥370 | All types |
+| ¥490 | All types |
+| ¥610 | All types |
+
+> Prices displayed to buyers vary by region and currency. JPY is the platform's base currency for revenue calculation.
 
 #### Theme Pricing Note
-- NTD 30 and NTD 60: **Not available when Japan is included in sales regions**
-- NTD 90 / 120 / 150: Available for all regions
+- ¥120 and ¥250: **Not available when Japan is included in sales regions**
+- ¥370 / ¥490 / ¥610: Available for all regions
 
 > To change the price of a product already on sale: Suspend sales → wait 3 hours → change price → relaunch. Cannot change price again within 24 hours after relaunching. Suspending sales automatically sets LINE Sticker Premium participation to "Not participating".
 
@@ -183,7 +185,7 @@ Submitted → Awaiting Review → Under Review → In Review Processing → Appr
 
 ### Complete Review Guidelines
 
-Source: https://creator.line.me/zh-hant/review_guideline/
+Source: `https://creator.line.me/{lang}/review_guideline/`
 
 #### 1. Images (Sticker images, main image, chat room tab image)
 | # | Guideline |
@@ -382,8 +384,8 @@ Sales via LINE Coins are converted to JPY using LINE's set exchange rate:
 ### Eligible Products
 | Eligible | Not Eligible |
 |----------|-------------|
-| Static stickers | Custom stickers (隨你填貼圖) |
-| Animated stickers | Message stickers (訊息貼圖) |
+| Static stickers | Custom stickers |
+| Animated stickers | Message stickers |
 | Big stickers | |
 | Popup stickers | |
 | Effect stickers | |
@@ -402,7 +404,7 @@ Sales via LINE Coins are converted to JPY using LINE's set exchange rate:
 ### Simulator
 Preview stickers in chat room context before submission; check thumbnail legibility.
 
-### LINE Sticker Maker App (LINE拍貼)
+### LINE Sticker Maker App
 
 Mobile app for creating stickers directly from photos and videos — no design experience required.
 
@@ -456,7 +458,7 @@ Mobile app for creating stickers directly from photos and videos — no design e
 - Do not use content infringing others' rights, celebrities, or cartoon characters
 - Do not use immoral or offensive content
 - Do not use for commercial or promotional purposes
-- Check [portrait rights guidelines](https://creator-mag-tw.weblog.to/archives/27376979.html) before using real-person photos
+- Check portrait rights guidelines before using real-person photos
 
 **Handling Rejected Stickers (App → Web Workflow):**
 - Rejected stickers **cannot be edited or resubmitted** through the app
@@ -530,41 +532,44 @@ Businesses can distribute stickers for free via PR Stamps, with configurable dow
 
 ## Official Resources
 
-### Creators Market Multi-Language Portals
+### Language-Aware URLs
 
-| Language | URL |
-|----------|-----|
-| Japanese | https://creator.line.me/ja/ |
-| Traditional Chinese | https://creator.line.me/zh-hant/ |
-| English | https://creator.line.me/en/ |
-| Thai | https://creator.line.me/th/ |
-| Korean | https://creator.line.me/ko/ |
-| Indonesian | https://creator.line.me/id/ |
-| Simplified Chinese | https://creator.line.me/zh-hans/ |
+All Creators Market URLs follow the pattern `https://creator.line.me/{lang}/...`. When providing links to the user, match `{lang}` to the user's language. Default to `en` if uncertain.
+
+| User Language | `{lang}` | Portal URL |
+|--------------|----------|------------|
+| 日本語 | `ja` | https://creator.line.me/ja/ |
+| English | `en` | https://creator.line.me/en/ |
+| 繁體中文 | `zh-hant` | https://creator.line.me/zh-hant/ |
+| 简体中文 | `zh-hans` | https://creator.line.me/zh-hans/ |
+| ไทย | `th` | https://creator.line.me/th/ |
+| 한국어 | `ko` | https://creator.line.me/ko/ |
+| Bahasa Indonesia | `id` | https://creator.line.me/id/ |
 
 ### Guidelines & Manuals
 
-| Resource | URL |
-|----------|-----|
-| Static Sticker Guidelines | https://creator.line.me/zh-hant/guideline/sticker/ |
-| Animated Sticker Guidelines | https://creator.line.me/zh-hant/guideline/animationsticker/ |
-| Custom Sticker Guidelines | https://creator.line.me/zh-hant/guideline/customsticker/ |
-| Message Sticker Guidelines | https://creator.line.me/zh-hant/guideline/messagesticker/ |
-| Big Sticker Guidelines | https://creator.line.me/zh-hant/guideline/bigsticker/ |
-| Popup Sticker Guidelines | https://creator.line.me/zh-hant/guideline/popupsticker/ |
-| Effect Sticker Guidelines | https://creator.line.me/zh-hant/guideline/effectsticker/ |
-| Emoji Production Guidelines | https://creator.line.me/zh-hant/guideline/emoji/ |
-| Animated Emoji Guidelines | https://creator.line.me/zh-hant/guideline/animationemoji/ |
-| Theme Production Guidelines | https://creator.line.me/zh-hant/guideline/theme/ |
-| Review Guidelines | https://creator.line.me/zh-hant/review_guideline/ |
-| Custom Sticker Font List | https://creator.line.me/zh-hant/guideline/customsticker/font/ |
-| Creator Manual (Taiwan) | https://linecreator-manual-tw.blog.jp/ |
-| Portrait Rights Guide (Taiwan) | https://creator-mag-tw.weblog.to/archives/27376979.html |
+Replace `{lang}` below with the appropriate language code from the table above.
+
+| Resource | URL Pattern |
+|----------|-------------|
+| Static Sticker Guidelines | `https://creator.line.me/{lang}/guideline/sticker/` |
+| Animated Sticker Guidelines | `https://creator.line.me/{lang}/guideline/animationsticker/` |
+| Custom Sticker Guidelines | `https://creator.line.me/{lang}/guideline/customsticker/` |
+| Message Sticker Guidelines | `https://creator.line.me/{lang}/guideline/messagesticker/` |
+| Big Sticker Guidelines | `https://creator.line.me/{lang}/guideline/bigsticker/` |
+| Popup Sticker Guidelines | `https://creator.line.me/{lang}/guideline/popupsticker/` |
+| Effect Sticker Guidelines | `https://creator.line.me/{lang}/guideline/effectsticker/` |
+| Emoji Production Guidelines | `https://creator.line.me/{lang}/guideline/emoji/` |
+| Animated Emoji Guidelines | `https://creator.line.me/{lang}/guideline/animationemoji/` |
+| Theme Production Guidelines | `https://creator.line.me/{lang}/guideline/theme/` |
+| Review Guidelines | `https://creator.line.me/{lang}/review_guideline/` |
+| Custom Sticker Font List | `https://creator.line.me/{lang}/guideline/customsticker/font/` |
+| LINE Sticker Maker | `https://creator.line.me/{lang}/stickermaker/` |
 
 ### Support
 
 | Resource | URL |
 |----------|-----|
-| Official Blog | http://creator-mag.line.me/tw/ |
+| Official Blog | https://creator-mag.line.me/ja/ |
 | FAQ | https://help2.line.me/creators/web/ |
 | Contact Support | https://contact.line.me/serviceId/10569 |

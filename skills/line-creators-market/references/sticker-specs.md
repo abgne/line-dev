@@ -1,7 +1,7 @@
 # LINE Creative Product Technical Specifications
 
 Sources:
-- LINE Creators Market Official Guidelines (https://creator.line.me/zh-hant/guideline/)
+- LINE Creators Market Official Guidelines (`https://creator.line.me/{lang}/guideline/` — see creators-market-guide.md for language codes)
 - Production guidelines for all 7 sticker types, emoji, animated emoji, and themes
 
 > **Two creation paths exist**: (1) **Creators Market web** — full control, all product types, ~10 day review; (2) **LINE Sticker Maker app** — photo/video-based, static + animated stickers only, ~2 day review. Specs below apply to both paths unless noted.
@@ -120,7 +120,7 @@ Message stickers allow users to freely input text messages within the sticker.
 - **Does not support tag setting**
 - **Not eligible** for LINE Sticker Premium or Sticker Arranger
 - Same sales region restrictions as Custom stickers
-- Production guidelines: https://creator.line.me/zh-hant/guideline/messagesticker/
+- Production guidelines: https://creator.line.me/{lang}/guideline/messagesticker/
 
 ---
 
@@ -141,7 +141,7 @@ Big stickers are displayed larger than standard stickers in chat.
 - System auto-adds white border
 - **Does not support animation**
 - Eligible for LINE Sticker Premium
-- Production guidelines: https://creator.line.me/zh-hant/guideline/bigsticker/
+- Production guidelines: https://creator.line.me/{lang}/guideline/bigsticker/
 
 ---
 
@@ -177,7 +177,7 @@ Popup stickers display a full-screen animation or image when sent.
 - **Not eligible** for Sticker Arranger
 - Eligible for LINE Sticker Premium
 - ZIP upload limit: 51 images total
-- Production guidelines: https://creator.line.me/zh-hant/guideline/popupsticker/
+- Production guidelines: https://creator.line.me/{lang}/guideline/popupsticker/
 
 ---
 
@@ -212,7 +212,7 @@ Effect stickers display a special visual effect overlaying the chat screen.
 - **Not eligible** for Sticker Arranger
 - Eligible for LINE Sticker Premium
 - ZIP upload limit: 51 images total
-- Production guidelines: https://creator.line.me/zh-hant/guideline/effectsticker/
+- Production guidelines: https://creator.line.me/{lang}/guideline/effectsticker/
 
 ---
 
