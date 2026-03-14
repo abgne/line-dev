@@ -45,13 +45,19 @@ After registration: LIFF ID (e.g., `1234567890-AbcdEfgh`) and LIFF URL (`https:/
 
 Two path types:
 
-| Type | URL | Behavior |
-|------|-----|----------|
+| Type | URL Pattern | Behavior |
+|------|-------------|----------|
 | **Edge** | `https://static.line-scdn.net/liff/edge/2/sdk.js` | Auto-updates to latest (major version only) |
-| **Fixed** | `https://static.line-scdn.net/liff/edge/versions/2.22.3/sdk.js` | Pinned to exact patch — manual updates |
+| **Fixed** | `https://static.line-scdn.net/liff/edge/versions/{version}/sdk.js` | Pinned to exact patch — manual updates |
+
+Replace `{version}` with the latest SDK version. Check the [LIFF SDK release notes](https://developers.line.biz/en/docs/liff/release-notes/) for the current version.
 
 ```html
-<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.22.3/sdk.js"></script>
+<!-- Edge (auto-updates within major version) -->
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+
+<!-- Fixed (replace {version} with actual version, e.g. 2.22.3) -->
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/{version}/sdk.js"></script>
 ```
 - Include `charset="utf-8"` if your HTML uses a different encoding
 
@@ -297,48 +303,9 @@ if (liff.isApiAvailable('shareTargetPicker')) {
 
 ---
 
-## 11. SDK Versioning & Lifecycle
+## 11. Key Breaking Changes & Deprecations
 
-### Versioning Policy
-
-Since v2.2.0, LIFF follows [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`):
-
-| Version | Meaning |
-|---------|---------|
-| MAJOR | Backwards-incompatible changes (e.g., v1 → v2) |
-| MINOR | New backwards-compatible features (e.g., v2.26 → v2.27) |
-| PATCH | Backwards-compatible bug fixes (e.g., v2.27.2 → v2.27.3) |
-
-### CDN Update Behavior
-
-| CDN Path | Update behavior |
-|----------|----------------|
-| **Edge** (`/edge/2/sdk.js`) | Auto-updates to latest MINOR + PATCH within same MAJOR |
-| **Fixed** (`/edge/versions/2.x.x/sdk.js`) | Never auto-updates; developer controls timing |
-| **Compat** (`/edge/2.1/sdk.js`) | Same as edge; **may be discontinued** without following lifecycle schedule |
-
-### SDK Lifecycle
-
-Each MAJOR version progresses through these phases:
-
-| Status | Description | Duration |
-|--------|-------------|----------|
-| **Active** | Current version; new features and improvements | Until next MAJOR release |
-| **Maintaining** | Bug fixes and security patches only | 12 months after Active ends |
-| **Deprecated** | No updates; still usable | 6 months after Maintaining ends |
-| **End-of-life** | CDN paths disabled; apps stop working | — |
-
-**Current status:**
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| LIFF v1 | End-of-life (Oct 1, 2021) | All CDN paths disabled |
-| LIFF v2 | Active (since Oct 16, 2019) | Current version |
-| LIFF v3 | TBD | — |
-
-**Warning**: An end-of-life SDK means LIFF apps using it **cannot be opened at all**. Monitor lifecycle schedule and migrate before deprecation ends.
-
-### Key Breaking Changes by Version
+### Breaking Changes by Version
 
 | Version | Change | Impact |
 |---------|--------|--------|
@@ -355,3 +322,5 @@ Each MAJOR version progresses through these phases:
 | `liff.scanCode()` | `liff.scanCodeV2()` | v2.15.0 |
 | `liff.getLanguage()` | `liff.getAppLanguage()` | v2.24.0 |
 | `liff.permanentLink.createUrl()` | `liff.permanentLink.createUrlBy()` | v2.18.0 (may be removed in v3) |
+
+For the full version history and latest changes, see the [LIFF SDK release notes](https://developers.line.biz/en/docs/liff/release-notes/).
