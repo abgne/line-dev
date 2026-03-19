@@ -59,39 +59,9 @@ liff.init({ liffId: 'YOUR_LIFF_ID', withLoginOnExternalBrowser: true })
 3. Integrate SDK, call `liff.init()`
 4. Or scaffold with `npx @line/create-liff-app` (React/Vue/Svelte/Next.js/Nuxt/vanilla)
 
-## Core API Summary
+## API Reference
 
-### Authentication & Profile
-| Method | Description | Scope |
-|--------|-------------|-------|
-| `liff.isLoggedIn()` | Check login status | — |
-| `liff.login()` | Trigger login (external browser only) | — |
-| `liff.logout()` | Log out | — |
-| `liff.getProfile()` | Get userId, displayName, pictureUrl | `profile` |
-| `liff.getDecodedIDToken()` | Get decoded JWT (email, etc.) | `openid` + `email` |
-| `liff.getIDToken()` | Get raw JWT (for server verification) | `openid` |
-| `liff.getFriendship()` | Check friendship with linked OA | `profile` |
-
-### Messaging
-| Method | Description | Restriction |
-|--------|-------------|------------|
-| `liff.sendMessages([...])` | Send to current chat (max 5) | LIFF browser only |
-| `liff.shareTargetPicker([...])` | Pick friends/groups to share | Check `isApiAvailable` first |
-
-### Device & Navigation
-| Method | Description |
-|--------|-------------|
-| `liff.scanCodeV2()` | QR code scanner (enable in Console) |
-| `liff.openWindow({url, external})` | Open URL |
-| `liff.closeWindow()` | Close LIFF (unreliable in external browser) |
-
-### Context
-| Method | Description |
-|--------|-------------|
-| `liff.getContext()` | Get type, userId, groupId, roomId, viewType |
-| `liff.getOS()` | `'ios'`, `'android'`, `'web'` |
-| `liff.isInClient()` | Whether running in LINE app |
-| `liff.permanentLink.createUrlBy(url)` | Create permanent link |
+Complete API reference (methods, parameters, scopes, availability matrix) → **[references/api.md](references/api.md)**
 
 ## View Sizes
 

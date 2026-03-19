@@ -48,7 +48,7 @@ Two path types:
 | Type | URL Pattern | Behavior |
 |------|-------------|----------|
 | **Edge** | `https://static.line-scdn.net/liff/edge/2/sdk.js` | Auto-updates to latest (major version only) |
-| **Fixed** | `https://static.line-scdn.net/liff/edge/versions/{version}/sdk.js` | Pinned to exact patch — manual updates |
+| **Fixed** | `https://static.line-scdn.net/liff/edge/versions/{version}/sdk.js` | Pinned to exact patch — manual updates, e.g. 2.22.3 |
 
 Replace `{version}` with the latest SDK version. Check the [LIFF SDK release notes](https://developers.line.biz/en/docs/liff/release-notes/) for the current version.
 
@@ -56,7 +56,7 @@ Replace `{version}` with the latest SDK version. Check the [LIFF SDK release not
 <!-- Edge (auto-updates within major version) -->
 <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
 
-<!-- Fixed (replace {version} with actual version, e.g. 2.22.3) -->
+<!-- Fixed (replace {version} with actual version) -->
 <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/{version}/sdk.js"></script>
 ```
 - Include `charset="utf-8"` if your HTML uses a different encoding
