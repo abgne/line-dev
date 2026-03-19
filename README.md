@@ -59,7 +59,7 @@ npx skills add abgne/line-dev@line-creators-market
 | [line-login](skills/line-login/) | OAuth 2.0, PKCE, ID Token JWT verification, token management, bot linking, login button design |
 | [line-liff](skills/line-liff/) | LIFF SDK, liff.init, sendMessages, Share Target Picker, QR scan, permanent links, pluggable SDK |
 | [line-mini-app](skills/line-mini-app/) | Service Messages, Common Profile Quick Fill, In-App Purchase, Console setup, submission review |
-| [line-notification-message](skills/line-notification-message/) | Phone-number-based PNP push, SHA256 hashing, template/flexible types, delivery webhook, consent flow, SMS auth |
+| [line-notification-message](skills/line-notification-message/) | Phone-number-based PNP push (LON), SHA256 hashing, template/flexible types, delivery webhook, consent flow, SMS auth |
 | [line-creators-market](skills/line-creators-market/) | Sticker creation (7 types), emoji, themes, technical specs, review guidelines, revenue model, AI usage declaration, LINE Sticker Maker, market strategy |
 
 Each skill includes reference files covering API specs, expert guidance, and region-specific details for **Japan**, **Thailand**, and **Taiwan**.
@@ -99,7 +99,7 @@ pip install claude-agent-sdk
 | Skill | Accuracy | Queries |
 |-------|----------|---------|
 | messaging-api | 100% | 70/70 |
-| line-notification-message | 100% | 70/70 |
+| line-notification-message | 100% | 73/73 |
 | line-mini-app | 99% | 174/176 |
 | line-login | 92% | 60/65 |
 | line-liff | 92% | 66/72 |

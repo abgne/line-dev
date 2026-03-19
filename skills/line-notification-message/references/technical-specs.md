@@ -204,3 +204,17 @@ The notification messages API does not support retry keys. Do not include the `X
 - Phone numbers must be issued in these countries
 - **Corporate users only** — requires application through LINE sales representative or [Sales partners](https://www.lycbiz.com/jp/partner/sales/)
 - Cannot be used with personal LINE accounts
+
+### Regional Names
+
+| Market | Name |
+|--------|------|
+| Japan | LINE通知メッセージ |
+| Thailand | LON (LINE Official Notification) |
+| Taiwan | LINE 通知型訊息 |
+
+All refer to the same service. The underlying API uses **PNP** (Phone Number Push) as the technical identifier.
+
+### API Access
+
+The LINE notification messages API is **not publicly accessible**. It can only be used through a LINE Certified Technology Partner. The API endpoints documented in this skill describe LINE's underlying API specifications for reference — actual integration is done via the partner's wrapper API or under the partner's technical supervision.

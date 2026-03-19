@@ -167,6 +167,18 @@
     "query": "How do I hash a Thai phone number for LINE notification messages? Does the +66 prefix need to be included?",
     "should_trigger": true
   },
+  {
+    "query": "อยากใช้ LON ส่งแจ้งเตือนผ่านเบอร์มือถือ ต้อง hash เบอร์ยังไง? LON กับ notification message เหมือนกันไหม?",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I integrate LINE Official Notification (LON) to send messages to users by phone number in Thailand?",
+    "should_trigger": true
+  },
+  {
+    "query": "LON 跟 LINE 通知型訊息是同一個東西嗎？我想透過手機號碼發送出貨通知給非好友用戶",
+    "should_trigger": true
+  },
 
   {
     "query": "LINE Bot で push message を送りたいのですが、特定のユーザー ID に対して送る方法を教えてください。rate limit はどのくらいですか？",
