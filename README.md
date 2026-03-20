@@ -83,6 +83,18 @@ pip install claude-agent-sdk
 
 ### Run
 
+**End-to-End** (actual Claude Code invocation — requires `claude` CLI):
+
+```bash
+# Test one skill
+./test_skill_e2e.sh messaging-api --verbose
+
+# Multiple runs for stability
+./test_skill_e2e.sh messaging-api --runs 3 --verbose
+```
+
+**Simulated** (Agent SDK assessment — faster, lower cost):
+
 ```bash
 # Test one skill
 ./test_skill.sh messaging-api --max-iterations 1 --verbose
@@ -96,11 +108,25 @@ pip install claude-agent-sdk
 
 ### Current Scores
 
-| Skill | Accuracy | Queries |
-|-------|----------|---------|
-| messaging-api | 100% | 70/70 |
-| line-notification-message | 100% | 73/73 |
-| line-mini-app | 99% | 174/176 |
-| line-login | 92% | 60/65 |
-| line-liff | 92% | 66/72 |
-| line-creators-market | 100% | 68/68 |
+#### End-to-End (actual `claude -p` invocation)
+
+Runs each query through Claude Code and checks whether the `Skill` tool was actually called.
+
+| Skill | Accuracy | Queries | Date |
+|-------|----------|---------|------|
+| messaging-api | 93% | 65/70 | 2026-03-20 |
+| line-login | 95% | 62/65 | 2026-03-20 |
+| line-liff | 96% | 69/72 | 2026-03-20 |
+
+#### Simulated (Agent SDK assessment)
+
+Uses Claude Agent SDK to simulate the triggering decision.
+
+| Skill | Accuracy | Queries | Date |
+|-------|----------|---------|------|
+| messaging-api | 100% | 70/70 | 2026-03-20 |
+| line-notification-message | 100% | 73/73 | 2026-03-20 |
+| line-mini-app | 99% | 174/176 | 2026-03-20 |
+| line-login | 92% | 60/65 | 2026-03-20 |
+| line-liff | 92% | 66/72 | 2026-03-20 |
+| line-creators-market | 100% | 68/68 | 2026-03-20 |
