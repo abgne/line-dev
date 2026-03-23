@@ -127,9 +127,9 @@ Uses Claude Agent SDK to simulate the triggering decision.
 
 | Skill | Accuracy | Queries | Date |
 |-------|----------|---------|------|
-| messaging-api | 100% | 70/70 | 2026-03-20 |
 | line-notification-message | 100% | 73/73 | 2026-03-20 |
-| line-mini-app | 99% | 174/176 | 2026-03-20 |
-| line-login | 92% | 60/65 | 2026-03-20 |
 | line-liff | 92% | 66/72 | 2026-03-20 |
+| line-login | 92% | 60/65 | 2026-03-20 |
+| line-mini-app | 99% | 174/176 | 2026-03-20 |
+| messaging-api | 100% | 70/70 | 2026-03-20 |
 | line-creators-market | 100% | 68/68 | 2026-03-20 |
