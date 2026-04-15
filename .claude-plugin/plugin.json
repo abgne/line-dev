@@ -1,6 +1,6 @@
 {
   "name": "line-dev",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "LINE platform development skills — Messaging API, LINE Login, LIFF, MINI App, and Notification Messages. Provides API references, code patterns, and expert guidance for building LINE integrations in Japan, Thailand, and Taiwan.",
   "author": {
     "name": "abgne",

@@ -168,8 +168,10 @@ Max 10 combined audience + redelivery objects per request. No limit on operator 
 ### Restrictions
 
 - To use attribute filters, the LINE Official Account's target reach must be ≥ 100 users
-- Final recipient count must be ≥ 50 users
-- Each audience must have ≥ 50 recipients (except upload and chat tag audiences)
+- Final recipient count must be ≥ 50 users — **exempt** when sending only to UPLOAD or chat tag audiences created by your own OA (with no attribute filter)
+- Each audience must have ≥ 50 recipients — **exempt** for UPLOAD and chat tag audiences created by your own OA
+- **Cross-OA caveat:** audiences shared from another LINE Official Account (via Business Manager) do NOT receive the above exemptions — the 50-person rules apply even if the type is UPLOAD or chat tag
+- When the 50-person rule is violated, LINE returns `202` at send time but delivery fails afterward — check `GET /v2/bot/message/progress/narrowcast` for `errorCode: 2` (insufficient recipients) or `errorCode: 4` (audience < 50)
 - Narrowcast reserves the full target reach count from monthly quota during delivery
 
 ### Get Narrowcast Status

@@ -166,7 +166,7 @@ Important:
 
 | Status | Description |
 |--------|-------------|
-| `IN_PROGRESS` | Pending (may take hours; stays here if < 50 users for restricted types) |
+| `IN_PROGRESS` | Pending (may take hours). For UPLOAD audiences, stays here only when `audiences` was omitted/empty at creation — not because the count is < 50. For CLICK/IMP and other restricted types, stays here until the count reaches their minimum (e.g., 50) |
 | `READY` | Ready for messaging |
 | `FAILED` | Creation error |
 | `EXPIRED` | Expired (auto-deleted 1 month later) |
