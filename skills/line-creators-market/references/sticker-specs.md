@@ -52,19 +52,39 @@ Sources:
 
 ### APNG Specifications
 - Frames: **5–20 frames**
-- Playback duration: max **4 seconds**
-- Loops: **1–4 times** (total playback must not exceed 4 seconds)
-- Size rule: within 320x270 px, one dimension must reach 270px
+- **One loop must be exactly 1, 2, 3 or 4 seconds — decimals (e.g. 1.5s) are NOT accepted**
+- Loops: **1–4 times**; `one loop × loops` must not exceed **4 seconds**
+- Size rule: within 320x270 px, and **one side must be ≥ 270px** (not "exactly 270")
 - Single file: < 1MB
 - ZIP archive: < 60MB
 
+> **The integer-second rule applies to ONE LOOP, not the total.** `5 frames × 100ms × 4 loops`
+> totals 2000ms but each loop is only 500ms — rejected. Pick `frames × per-frame-ms` so the
+> loop lands exactly on 1000/2000/3000/4000 ms, e.g. **10 × 100ms**, 8 × 125ms, 20 × 50ms.
+> Source: `creator.line.me/{lang}/guideline/animationsticker/detail/`
+
+### File Naming (ZIP upload)
+- `main.png` (240×240 APNG) + `tab.png` (96×74 static PNG) + zero-padded `01.png`, `02.png` …
+- Put every file at the **ZIP root** — no top-level folder, no unrelated files
+
 ### Animated Sticker Notes
-- Remove white borders; no padding needed
+- **Remove white borders — crop away transparent area outside the union of ALL frames.**
+  Official wording: 「圖片請勿留白邊」. Use one shared bbox for every frame so the character
+  does not jitter (all frames must keep identical canvas dimensions).
 - All frames within a single APNG must have consistent dimensions
-- **First frame** serves as the preview in LINE Store and static display
+- **First frame** serves as the preview in LINE Store and static display.
+  Official guidance: **make the first and last frame the same image** so the loop closes and
+  the static preview carries the intended emotion.
 - All image backgrounds must be transparent
 - Chat room tab image automatically displays a play symbol — do not add manually
-- Avoid identical frames across all images (prevents animation playback)
+- Avoid identical frames across all images (prevents animation playback).
+  **Consecutive identical frames may be collapsed into a single frame by APNG tools**, and an
+  APNG whose frames are all identical fails at upload. Ensure at least two frames visibly differ.
+- **`tab.png` transparency**: stray semi-transparent fragments away from the character trigger
+  a rule 1.1 rejection (`背景の一部が部分的に透過漏れしています > tab`). Inspect at ≥6× zoom on a
+  checkerboard — a white browser background will not reveal them.
+- **Product type is fixed at creation**: a static sticker product cannot be converted to an
+  animated sticker product; create a new product with the correct type.
 - **Tip**: Images from existing static stickers already on sale can be reused to create animated versions
 
 ---
@@ -276,12 +296,18 @@ Effect stickers display a special visual effect overlaying the chat screen.
 
 ### APNG Specifications
 - Frames: **5–20 frames**
-- Playback duration: max **4 seconds** (total including all loops)
-- Loops: **1–4 times**
+- **One loop must be exactly 1, 2, 3 or 4 seconds — decimals are NOT accepted**
+- Loops: **1–4 times**; `one loop × loops` must not exceed **4 seconds**
 - Single file: **< 300KB**
 - ZIP archive: < 20MB
 - Background must be transparent
 - File extension must be `.png`
+- File naming: zero-padded `001.png`, `002.png` … plus `tab.png`, all at the **ZIP root**
+
+> Same integer-second rule as animated stickers — it governs ONE LOOP, not the total.
+> Source: `creator.line.me/{lang}/guideline/animationemoji/detail/`
+> Trimming transparent margin matters more here: the 180×180 canvas is small, and official
+> guidance warns against letting the artwork shrink (可視性 drops).
 
 ### Design Tips
 - Animations must be clearly visible at small display sizes
