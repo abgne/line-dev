@@ -91,6 +91,7 @@ Launch Timing:
 - [ ] Tags set (max 9 per sticker/emoji) for auto-suggest functionality
 - [ ] AI usage declaration accurately set if AI was used in creation
 - [ ] Previewed in simulator for chat room appearance
+- [ ] Themes: all 59 required files present (62 with optional), incl. the 18 iOS 26 `i_NN_g.png` (80x56 px) menu icons; the 9 icons share one style and read the same on iOS / Android / iOS 26
 
 ## Reference Index
 
@@ -98,10 +99,10 @@ Launch Timing:
 |------|-------|
 | [sticker-specs.md](references/sticker-specs.md) | Full technical specs for stickers, animated stickers, emoji, and themes |
 | [style-guide.md](references/style-guide.md) | Five creative style guides and design principles |
-| [experts.md](references/experts.md) | Top global creator database and success strategies |
+| [experts.md](references/experts.md) | Top global creator database and success strategies (sticker, emoji, and theme specialists) |
 | [market-tips.md](references/market-tips.md) | Market-specific playbooks, pricing, SEO, and promotion |
 | [creators-market-guide.md](references/creators-market-guide.md) | Creators Market platform operations, review rules, and revenue model |
-| [theme-specs.md](references/theme-specs.md) | Theme design best practices, color coordination, readability tips |
+| [theme-specs.md](references/theme-specs.md) | Theme design best practices, iOS 26 menu icons (`_g` set, timeline), production workflow, readability tips |
 
 ## Language-Aware Links
 
@@ -111,5 +112,5 @@ All Creators Market URLs use `https://creator.line.me/{lang}/...`. Match `{lang}
 
 - **LINE Sticker Maker**: [iOS](https://itunes.apple.com/jp/app/line/id1239684967) | [Android](https://play.google.com/store/apps/details?id=com.linecorp.usersticker) | [Info](https://creator.line.me/{lang}/stickermaker/) — mobile sticker creation from photos/videos
 - **Sticker Simulator**: Preview stickers in chat room context before submission (in Creators Market web dashboard)
-- **Photoshop Template**: Official PSD template for theme creation (CS6+)
+- **Photoshop Template**: Official PSD template for theme creation — artboard-based, Photoshop CC required (not CS6); includes the iOS 26 `_g` artboards and a `colorskin_brown.zip` preview set
 - **LINE STORE Search**: [LINE Sticker Maker](https://store.line.me/search/sticker/en?q=LINE+Sticker+Maker) — browse existing LINE Sticker Maker creations

@@ -135,11 +135,12 @@ After confirming all settings, click "Submit" to enter the review process.
 
 Theme registration follows a similar flow to stickers, with additional considerations:
 
-1. **Image count**: 44 images total (main images, menu buttons, lock screen, etc.)
-2. **Color settings**: Customizable color scheme and chat background color
-3. **Cross-platform preview**: Preview iOS / Android display in different languages
-4. **Photoshop template**: Official PSD template available for download
-5. Technical specs: see [sticker-specs.md](sticker-specs.md) (Themes section)
+1. **Image count**: 62 images (59 required + 3 optional). Since iOS 26 the 9 menu buttons need two sets — 128x150 `i_NN.png` and 80x56 `i_NN_g.png` — and the iOS 26 set must be included when submitting for review
+2. **Existing themes**: un-updated themes showed LINE's default icons on iOS 26 from August 2026; LINE auto-converted the rest in early September 2026 (official notice 2026-08-20, updated 08-31). Replace the auto-converted icons with your own if the result looks off; buyers can claim refunds until 2027-03-31
+3. **Color settings**: Customizable color scheme and chat background color
+4. **Cross-platform preview**: Preview iOS / Android display in different languages
+5. **Photoshop template**: Official PSD template available for download (Photoshop CC with artboards; not compatible with CS6)
+6. Technical specs: see [sticker-specs.md](sticker-specs.md) (Themes section)
 
 ---
 
@@ -202,7 +203,20 @@ Source: `https://creator.line.me/{lang}/review_guideline/`
 | 1.10 | Duplicates stickers already on sale or under review in the Sticker Shop |
 
 > **Emoji differences**: 1.7 becomes "duplicates within same set"; 1.8 becomes "duplicates existing emoji on sale"
-> **Theme differences**: 1.2 becomes "icon corruption, icons blending with background"; 1.7 includes "same icon with only color change"; 1.8 includes "significantly different icons across OS"
+
+##### Theme images (numbered separately — do not map these onto the sticker list above)
+| # | Guideline |
+|---|-----------|
+| 1.1 | Does not comply with company specifications |
+| 1.2 | Difficult to recognize (e.g., distorted/illegible icons, icons blending into the background) |
+| 1.3 | Overall design clearly unbalanced (e.g., icons lack a unified style, text only) |
+| 1.4 | Text-only images |
+| 1.5 | Text errors within the theme |
+| 1.6 | Contradicts description or title |
+| 1.7 | Duplicates a theme on sale or under review in the Theme Shop (includes the same icons with a different color scheme) |
+| 1.8 | The same icon looks significantly different across operating systems |
+
+> Theme text rules match the sticker list; the contradiction item reads "contradicts the theme product itself".
 
 #### 2. Text (Title, description, creator name, copyright)
 | # | Guideline |

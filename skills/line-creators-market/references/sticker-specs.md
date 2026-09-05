@@ -327,12 +327,15 @@ Effect stickers display a special visual effect overlaying the chat screen.
 
 ## Themes
 
-### Required Images (41 required + 3 optional = 44 max)
+> Snapshot 2026-09-05. Sources: the detail guideline (`creator.line.me/{lang}/guideline/theme/detail/`) and the official Photoshop template ZIP (`line_creators_theme_template.zip`, last modified 2026-07-07). The overview page (`/guideline/theme/`) still says 34 menu buttons / 60 images; the detail page and the template both hold 36 / 62. Follow the template — it is what you actually export.
+
+### Required Images (59 required + 3 optional = 62 max)
 
 | Type | Quantity | Required? | Purpose |
 |------|----------|-----------|---------|
 | Main images (thumbnails) | 3 | Yes | Store display (iOS / Android / LINE STORE) |
-| Menu button images | 18 | Yes | 9 buttons × OFF/ON states |
+| Menu button images — standard | 18 | Yes | 9 buttons × OFF/ON, iOS 25 and earlier + Android |
+| Menu button images — iOS 26 | 18 | Yes | Same 9 buttons × OFF/ON, iOS 26 and later (`_g` suffix) |
 | Menu background | 1 | Optional | Menu backdrop |
 | Password screen images | 16 | Yes | 4 positions × OFF/ON × iOS/Android |
 | Profile images | 4 | Yes | 2 types × iOS/Android |
@@ -349,22 +352,30 @@ Effect stickers display a special visual effect overlaying the chat screen.
 > Main thumbnails must NOT have transparent backgrounds.
 
 ### Menu Button Images
-- **9 buttons × 2 states (OFF/ON) = 18 images**
-- **Size: 128x150 px** each
-- **~10px margin** around icon design
-- Notification badge: 33x33 px (positioned at top-right, 49px from top, 21px from right)
 
-| Button | OFF Filename | ON Filename |
-|--------|-------------|-------------|
-| Home | `i_29.png` | `i_30.png` |
-| Chat | `i_03.png` | `i_04.png` |
-| VOOM | `i_33.png` | `i_34.png` |
-| Shopping | `i_35.png` | `i_36.png` |
-| Call | `i_07.png` | `i_08.png` |
-| News | `i_25.png` | `i_26.png` |
-| TODAY | `i_31.png` | `i_32.png` |
-| Wallet | `i_27.png` | `i_28.png` |
-| MINI | `i_37.png` | `i_38.png` |
+Since iOS 26 (Liquid Glass tab bar) every button needs **two** images per state. Both sets ship in the template ZIP and both must be provided when submitting for review; the detail guideline dates the iOS 26 set as "applied from August 2026 onward".
+
+| Set | Applies to | Filename | Size | Icon margin | Notification badge |
+|-----|-----------|----------|------|-------------|--------------------|
+| Standard | iOS 25 and earlier, Android | `i_NN.png` | 128x150 px (portrait) | ~10px around the icon | 33x33 px, 49px from top, 21px from right |
+| iOS 26 | iOS 26 and later | `i_NN_g.png` | 80x56 px (landscape) | Keep the icon balanced top/bottom/left/right | 32x32 px, top-right of the image area |
+
+- **9 buttons × 2 states (OFF/ON) × 2 sets = 36 images**
+- The iOS 26 canvas is landscape and less than half the height of the standard one — redraw the icon, don't scale the 128x150 file down (review 1.2 catches illegible icons)
+- Official note for the iOS 26 set: check how the icon looks when placed over a transparent background — in some situations the menu is drawn over one
+- Both sets must read as the same icon (review 1.8 rejects icons that look significantly different across OS)
+
+| Button | Standard OFF | Standard ON | iOS 26 OFF | iOS 26 ON |
+|--------|-------------|-------------|------------|-----------|
+| Home | `i_29.png` | `i_30.png` | `i_29_g.png` | `i_30_g.png` |
+| Chat | `i_03.png` | `i_04.png` | `i_03_g.png` | `i_04_g.png` |
+| VOOM | `i_33.png` | `i_34.png` | `i_33_g.png` | `i_34_g.png` |
+| Shopping | `i_35.png` | `i_36.png` | `i_35_g.png` | `i_36_g.png` |
+| Call | `i_07.png` | `i_08.png` | `i_07_g.png` | `i_08_g.png` |
+| News | `i_25.png` | `i_26.png` | `i_25_g.png` | `i_26_g.png` |
+| TODAY | `i_31.png` | `i_32.png` | `i_31_g.png` | `i_32_g.png` |
+| Wallet | `i_27.png` | `i_28.png` | `i_27_g.png` | `i_28_g.png` |
+| MINI (Apps) | `i_37.png` | `i_38.png` | `i_37_g.png` | `i_38_g.png` |
 
 ### Menu Background
 - Filename: `i_11.png`
@@ -404,10 +415,7 @@ Effect stickers display a special visual effect overlaying the chat screen.
 > Transparent backgrounds are supported — transparent images layer over the color scheme background. Match background colors to prevent visual gaps on larger screens.
 
 ### Color Settings
-Customizable areas: chat bubbles (self/other), text color, navigation bar text, menu text, timestamp, read receipt, link color.
-
-### Color Settings
-Customizable areas: chat bubbles (self/other), text color, navigation bar text, menu text, timestamp, read receipt, link color. A `colorskin_brown.zip` template is available as reference.
+Customizable areas: chat bubbles (self/other), text color, navigation bar text, menu text, timestamp, read receipt, link color. The template ZIP includes `colorskin_brown.zip` (all 62 PNGs in one brown skin): upload it on the Edit Theme page's Images tab in Creators Market to preview a color skin before drawing your own.
 
 ### Theme Design Tips
 - **Contrast**: Ensure text is clearly readable against background
@@ -416,6 +424,7 @@ Customizable areas: chat bubbles (self/other), text color, navigation bar text, 
 - **Long-term use**: Avoid visual fatigue
 - Tile mode requires seamless pattern design
 - Normal/selected (OFF/ON) icon states must be clearly distinguishable
-- Adobe Photoshop CS6+ required for official PSD template
+- Draw the 80x56 iOS 26 icon first, then the 128x150 one — what survives the small landscape canvas scales up; the reverse does not hold
+- Official PSD template uses artboards: Photoshop CC required, **not compatible with CS6 or older**. File > Generate > Image Assets exports the numbered folders and files
 - ZIP archive: < 30MB
 - For detailed design best practices, see [theme-specs.md](theme-specs.md)

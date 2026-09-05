@@ -10,7 +10,7 @@ set -euo pipefail
 if [ $# -lt 1 ]; then
     echo "Usage: $0 <skill-name> [options]" >&2
     echo "" >&2
-    echo "Skills: messaging-api, line-login, line-liff, line-mini-app, line-notification-message" >&2
+    echo "Skills: messaging-api, line-login, line-liff, line-mini-app, line-notification-message, line-creators-market" >&2
     echo "Options: --max-iterations N, --runs-per-query N, --concurrency N, --verbose, --output FILE" >&2
     exit 1
 fi
