@@ -18,7 +18,7 @@
 | **kg** | Japan market* | Wagara / material-texture themes | **Theme specialist**, non-character, adult palettes |
 | **RedLake** | Japan market* | Colour-first minimal themes | **Theme specialist**, non-character, calm tones |
 
-\* Listed on the Japanese theme aggregator at the ¥370 (Japan-inclusive) tier; nationality not confirmed.
+\* Listed on the Japanese theme aggregator, so priced for Japan-inclusive sale; nationality not confirmed.
 
 ---
 
@@ -305,7 +305,7 @@ The following experts specialize in LINE emoji design, with works ranking high o
 
 ## Theme Specialist Creators
 
-Themes (着せかえ) in Japan are mostly not sticker-character spin-offs. The creators with the largest catalogues on the Japanese theme rankings sell colour, material and season — no mascot at all. LINE publishes no interviews with theme creators (the official interview series covers sticker creators only), so the entries below are built from catalogue observation, not from the creators' own words. Counts and prices are as of 2026-09.
+Themes (着せかえ) in Japan are mostly not sticker-character spin-offs. The creators with the largest catalogues on the Japanese theme rankings sell colour, material and season — no mascot at all. No LINE interview with a theme creator was found as of 2026-09 (the official interview series covers sticker creators), so the entries below are built from catalogue observation, not from the creators' own words. Counts and prices are as of 2026-09.
 
 ### 11. まるん (Marun)
 
@@ -335,7 +335,7 @@ Themes (着せかえ) in Japan are mostly not sticker-character spin-offs. The c
 
 ### 12. kg
 
-**Country**: Japan market (JP aggregator listing, ¥370 tier); nationality not confirmed
+**Country**: Japan market (JP aggregator listing, Japan-inclusive pricing); nationality not confirmed
 **Catalogue**: 134 themes
 **Specialty**: Adult, non-character themes built on Japanese patterns and material textures
 
@@ -361,7 +361,7 @@ Themes (着せかえ) in Japan are mostly not sticker-character spin-offs. The c
 
 ### 13. RedLake
 
-**Country**: Japan market (JP aggregator listing, ¥370 tier); nationality not confirmed
+**Country**: Japan market (JP aggregator listing, Japan-inclusive pricing); nationality not confirmed
 **Catalogue**: 128 themes
 **Specialty**: Colour-first abstract minimal themes
 
@@ -428,6 +428,6 @@ Themes (着せかえ) in Japan are mostly not sticker-character spin-offs. The c
 |------|----------------------|
 | Non-character themes (pattern, texture, colour) | kg, RedLake |
 | Seasonal cadence / colour variants | まるん |
-| Character-to-theme extension | Machiko, Kanahei |
+| Character-to-theme extension | Machiko |
 | Realistic sales expectations for a theme catalogue | market-tips.md → Japan → Themes (ぐらむ) |
 | iOS 26 back-catalogue update | theme-specs.md → iOS 26 Menu Icons (Anie) |
