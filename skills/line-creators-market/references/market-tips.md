@@ -50,6 +50,25 @@ Good: Every day usable! Soft cute rabbit stamps (毎日使える！ゆるかわ�
 | Nice | いいね | Iine |
 | Go for it | がんばれ | Ganbare |
 
+### Themes (着せかえ) in Japan
+
+Data points from Japanese theme creators, dated. Numbers are theirs, not LINE's.
+
+**Three business models that show up on the Japanese rankings**
+1. **Adult colour / pattern catalogue** (kg, RedLake — [experts.md](experts.md) 12–13): no character, 100+ themes, sells material and mood. Region-neutral because there is nothing to translate
+2. **Seasonal cadence + colourways** (まるん — [experts.md](experts.md) 11): a dated theme every month plus the same design in several colours
+3. **Character IP extension**: the global top-creators showcase is mostly this (cats, dogs), but note the showcase is one global list — the `/ja` and `/en` pages carry the same 24 themes, so it is not a Japan ranking
+
+**Pricing pattern: double-list**
+- ¥120 / ¥250 cannot be chosen when Japan is in the sales regions, so Japanese creators list the same theme twice: a ¥370 Japan version and a ¥120 overseas version (Riiiiiii, note.com; Anie's "230 themes, ~400 listings" is the same practice). A ¥120 theme therefore tells you it is an overseas listing, not that the creator is foreign
+
+**What sells — and what does not**
+- ぐらむ (note.com, 50 themes made in Illustrator from a reusable parts library): 17 sold in 27 months, ¥4,576 total. Instagram promotion produced nothing; the only exposure that moved sales was appearing in the new-releases list right after launch. Colour-only variants of one design were rejected in review (1.7). Volume is not a strategy on its own
+- The cadence model works for the same reason ぐらむ's IG did not: the store's own new-release slot is the channel, so a monthly release is a marketing calendar
+
+**iOS 26 is a maintenance cost**
+- Every theme on sale needed 18 additional 80x56 icons in 2026; Anie (230 themes) reported uploading them one by one because the bulk ZIP upload was not available in the dashboard. Price the catalogue models above with that in mind: 100 themes is 1,800 icons per platform change. Spec and timeline in [theme-specs.md](theme-specs.md) → iOS 26 Menu Icons
+
 ---
 
 ## Taiwan Market Playbook

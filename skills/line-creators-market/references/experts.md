@@ -14,6 +14,11 @@
 | **Moonlab** | Korea | Maltese Dog | **Emoji specialist**, minimalist lines, cross-border hit |
 | **May** | Japan | Nordic Style Bob GIRL | **Emoji specialist**, Nordic style, mature cute |
 | **Machiko** | Taiwan | Machiko Rabbit | **Emoji specialist**, healing rabbit, product line extension |
+| **まるん (Marun)** | Japan | Monthly seasonal themes | **Theme specialist**, monthly cadence, colour variants |
+| **kg** | Japan market* | Wagara / material-texture themes | **Theme specialist**, non-character, adult palettes |
+| **RedLake** | Japan market* | Colour-first minimal themes | **Theme specialist**, non-character, calm tones |
+
+\* Listed on the Japanese theme aggregator at the ¥370 (Japan-inclusive) tier; nationality not confirmed.
 
 ---
 
@@ -298,6 +303,88 @@ The following experts specialize in LINE emoji design, with works ranking high o
 
 ---
 
+## Theme Specialist Creators
+
+Themes (着せかえ) in Japan are mostly not sticker-character spin-offs. The creators with the largest catalogues on the Japanese theme rankings sell colour, material and season — no mascot at all. LINE publishes no interviews with theme creators (the official interview series covers sticker creators only), so the entries below are built from catalogue observation, not from the creators' own words. Counts and prices are as of 2026-09.
+
+### 11. まるん (Marun)
+
+**Country**: Japan
+**Catalogue**: 134 themes on LINE STORE, ¥370 tier (Japan-inclusive)
+**Specialty**: Monthly seasonal series and colour variants
+
+#### Keys to Success
+- Monthly-dated series (「きっと、いいこと待ってる7月」「…8月」) — a new listing every month keeps the creator in the new-releases slot, the one exposure channel creators report actually works
+- One design in several colourways sold as separate themes (e.g., BAD KISS PINK / PURPLE / RED)
+- Lucky-charm (開運), Japanese-style (和風) and watercolour sports motifs — occasions, not characters
+
+#### Theme Design Characteristics (as listed on the store)
+- Titles carry the month; the same series continues month after month
+- The same design appears as PINK / PURPLE / RED listings
+- Motifs are occasions — luck, Japanese style, seasonal sport — rather than a mascot
+
+#### Learnable Strategies
+1. **Cadence over catalogue**: a monthly release is a marketing plan that needs no SNS
+2. **Colourways as a series**: cheap to produce, but review 1.7 rejects "same icons, different colour scheme" — variants that pass change more than the palette. Check what else differs before copying the tactic
+3. **Occasion motifs**: seasons and luck give a buyer a reason to switch themes; a mascot alone does not
+
+**Reference**:
+- LINE STORE: [まるん author page](https://store.line.me/themeshop/author/1773146/ja)
+
+---
+
+### 12. kg
+
+**Country**: Japan market (JP aggregator listing, ¥370 tier); nationality not confirmed
+**Catalogue**: 134 themes
+**Specialty**: Adult, non-character themes built on Japanese patterns and material textures
+
+#### Keys to Success
+- Wagara (矢絣 arrow-feather, 青海波 wave) patterns and leather / denim / knit textures — themes that read as "a good phone case", not "a cute character"
+- Dark, low-saturation palettes aimed at adult users
+- Volume: a catalogue in the 130s, near the top of the Japanese aggregator's popularity list
+
+#### Theme Design Characteristics (as listed on the aggregator)
+- Wagara patterns and rendered materials (leather, denim, knit) carry the theme; there is no character
+- Dark, low-saturation palettes throughout the catalogue
+- No text in the designs — nothing to localise, so one theme serves every region
+
+#### Learnable Strategies
+1. **Themes need no character**: the sticker-first assumption in this skill does not apply here
+2. **Texture is a differentiator**: material renders are hard to copy with a colour swap, which sidesteps review 1.7
+3. **Adult palette = long-term use**: low saturation avoids visual fatigue, the theme stays installed
+
+**Reference**:
+- line-kisekae.com: [kg author page](https://www.line-kisekae.com/list_source_9556_1.html)
+
+---
+
+### 13. RedLake
+
+**Country**: Japan market (JP aggregator listing, ¥370 tier); nationality not confirmed
+**Catalogue**: 128 themes
+**Specialty**: Colour-first abstract minimal themes
+
+#### Keys to Success
+- 128 themes, alongside kg near the top of the Japanese aggregator's popularity list
+- Same business model as kg: large catalogue, no mascot, region-neutral
+
+#### Theme Design Characteristics (as listed on the aggregator)
+- One calm, adult colour story per theme; colour is the subject
+- Abstract, minimal shapes instead of patterns or characters
+
+#### Learnable Strategies
+1. **Colour planning is the product**: the process in [theme-specs.md](theme-specs.md) (primary / secondary / neutral, WCAG AA) is the entire design here
+2. **Minimal survives iOS 26**: a one-colour glyph is the kind of icon that still reads at 80x56 px
+3. **Catalogue breadth by palette**: the same structure in 100+ colour stories, each different enough to clear review 1.7
+
+**Reference**:
+- line-kisekae.com: [RedLake author page](https://www.line-kisekae.com/list_source_3136_1.html)
+
+> For first-hand sales numbers and workflow write-ups from smaller Japanese theme creators (ぐらむ, Anie, Riiiiiii, みるよっこ), see [market-tips.md](market-tips.md) → Japan → Themes, and [theme-specs.md](theme-specs.md) → Production Workflow.
+
+---
+
 ## Quick Lookup by Need
 
 ### By Design Style
@@ -335,3 +422,12 @@ The following experts specialize in LINE emoji design, with works ranking high o
 | Emoji serialization | mofusand, May |
 | Emoji cross-border sales | Moonlab, mofusand |
 | Emoji merchandising | mofusand |
+
+### Theme Specialist
+| Goal | Recommended Reference |
+|------|----------------------|
+| Non-character themes (pattern, texture, colour) | kg, RedLake |
+| Seasonal cadence / colour variants | まるん |
+| Character-to-theme extension | Machiko, Kanahei |
+| Realistic sales expectations for a theme catalogue | market-tips.md → Japan → Themes (ぐらむ) |
+| iOS 26 back-catalogue update | theme-specs.md → iOS 26 Menu Icons (Anie) |
