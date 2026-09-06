@@ -119,7 +119,7 @@ Runs each query through Claude Code and checks whether the `Skill` tool was actu
 | line-login | 95% | 62/65 | 2026-03-20 |
 | line-mini-app | 94% | 166/176 | 2026-03-23 |
 | messaging-api | 93% | 65/70 | 2026-03-20 |
-| line-creators-market | 88% | 60/68 | 2026-03-20 |
+| line-creators-market | 100% | 77/77 | 2026-09-06 |
 
 #### Simulated (Agent SDK assessment)
 
